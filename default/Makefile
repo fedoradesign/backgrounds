@@ -1,5 +1,5 @@
-WP_NAME=f25
-WP_BIGNAME=F25
+WP_NAME=f26
+WP_BIGNAME=F26
 WP_DIR=$(DESTDIR)/usr/share/backgrounds/$(WP_NAME)
 GNOME_BG_DIR=$(DESTDIR)/usr/share/gnome-background-properties
 KDE_BG_DIR=$(DESTDIR)/usr/share/wallpapers/
@@ -32,9 +32,9 @@ install:
 	done;
 
 	$(INSTALL) $(WP_NAME).xml         		            $(WP_DIR)/default/$(WP_NAME).xml
-	$(INSTALL) desktop-backgrounds-$(WP_NAME).xml 		$(GNOME_BG_DIR)/$(WP_NAME).xml
+	$(INSTALL) gnome-backgrounds-$(WP_NAME).xml 		$(GNOME_BG_DIR)/$(WP_NAME).xml
 	#~ $(INSTALL) $(WP_NAME)-animated.xml         		            $(WP_DIR)/default-animated/$(WP_NAME).xml
-	#~ $(INSTALL) desktop-backgrounds-$(WP_NAME)-animated.xml 		$(GNOME_BG_DIR)/$(WP_NAME)-animated.xml
+	#~ $(INSTALL) gnome-backgrounds-$(WP_NAME)-animated.xml 		$(GNOME_BG_DIR)/$(WP_NAME)-animated.xml
 	$(MKDIR) $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images
 	$(INSTALL) $(WP_NAME)-metadata.desktop $(KDE_BG_DIR)/$(WP_BIGNAME)/metadata.desktop
 	for res in 640x480 800x600 1024x768 1152x864 1200x900 1280x960 1440x1080 1600x1200 1600x1280 1920x1440 2048x1536; do \
