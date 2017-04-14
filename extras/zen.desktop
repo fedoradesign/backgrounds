@@ -1,0 +1,24 @@
+[Desktop Entry]
+Name=zen (F26 Supplemental)
+X-KDE-PluginInfo-Name=zen (F26 Supplemental)
+X-KDE-PluginInfo-Author=hhlp
+X-KDE-PluginInfo-Email=fedora-design@lists.fedoraproject.org
+X-KDE-PluginInfo-Name=F26
+X-KDE-PluginInfo-Version=26.0
+X-KDE-PluginInfo-Website=http://fedoraproject.org/wiki/Design
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=CC-BY-SA 4.0
+X-KDE-PluginInfo-EnabledByDefault=true
+
+[Settings]
+FallbackTheme=default
+
+[Wallpaper]
+defaultWallpaperTheme=F26
+defaultFileSuffix=.png
+defaultWidth=1920
+defaultHeight=1200
+
+[Branding]
+homepage=http://fedoraproject.org
