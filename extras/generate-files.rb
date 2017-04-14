@@ -1,8 +1,9 @@
 # dnf install rubygem-i18n html2text wget
 require "i18n"
 
-WNAME = 'f24'
-WNAME_FULL = 'F24'
+WNAME = 'f26'
+WNAME_FULL = 'F26'
+WVERSION = '26.0'
 
 # load authors' info from prepared file
 authors = {}
@@ -73,9 +74,9 @@ f_slideshow_xml = File.new("#{WNAME}-extras.xml", 'w')
 f_slideshow_xml.puts <<EOF
 <background>
   <starttime>
-    <year>2016</year>
+    <year>2017</year>
     <month>06</month>
-    <day>07</day>
+    <day>20</day>
     <hour>00</hour>
     <minute>00</minute>
     <second>00</second>
@@ -150,7 +151,25 @@ Name=#{theme[:name]} (#{WNAME_FULL} Supplemental)
 X-KDE-PluginInfo-Name=#{theme[:name]} (#{WNAME_FULL} Supplemental)
 X-KDE-PluginInfo-Author=#{theme[:author]}
 X-KDE-PluginInfo-Email=fedora-design@lists.fedoraproject.org
+X-KDE-PluginInfo-Name=#{WNAME_FULL}
+X-KDE-PluginInfo-Version=#{WVERSION}
+X-KDE-PluginInfo-Website=http://fedoraproject.org/wiki/Design
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Depends=
 X-KDE-PluginInfo-License=#{theme[:licence]}
+X-KDE-PluginInfo-EnabledByDefault=true
+
+[Settings]
+FallbackTheme=default
+
+[Wallpaper]
+defaultWallpaperTheme=#{WNAME_FULL}
+defaultFileSuffix=.png
+defaultWidth=1920
+defaultHeight=1200
+
+[Branding]
+homepage=http://fedoraproject.org
   EOF
   f_desktop.close
 end
