@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>F27 Supplemental Wallpapers Slideshow</name>
+        <filename>/usr/share/backgrounds/f27/extras/f27-extras.xml</filename>
+        <options>zoom</options>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Dark Blue (F27 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f27/extras/dark-blue.jpg</filename>
+        <options>zoom</options>
+
+        <author>Fedora Design Team</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Dark Blue (F27 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f27/extras/dark-blue.png</filename>
+        <options>zoom</options>
+
+        <author>Fedora Design Team</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+
+</wallpapers>

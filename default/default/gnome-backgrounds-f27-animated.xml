@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>Fedora 27 Animated</name>
+        <filename>/usr/share/backgrounds/f27/default-animated/f27.xml</filename>
+        <options>stretched</options>
+    </wallpaper>
+</wallpapers>
