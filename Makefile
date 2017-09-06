@@ -1,6 +1,6 @@
 SUBDIRS = default extras
-VERSION = 25.0.0
-NAME =  f25-backgrounds-$(VERSION)
+VERSION = 27.0.0
+NAME =  f27-backgrounds-$(VERSION)
 
 all:
 	@for i in $(SUBDIRS) ; do \
@@ -15,8 +15,8 @@ install:
 dist:
 	mkdir -p $(NAME)
 	cp -a CC-BY-SA-4.0 $(NAME)
+	cp -a CC-BY-4.0 $(NAME)
 	cp -a CC0-1.0 $(NAME)
-	cp -a FAL-1.3 $(NAME)
 	cp -a Attribution $(NAME)
 	cp -a Attribution-Extras $(NAME)
 	cp -a Makefile $(NAME)
