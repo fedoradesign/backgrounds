@@ -1,0 +1,24 @@
+[Desktop Entry]
+Name=Candle holder (F28 Supplemental)
+X-KDE-PluginInfo-Name=Candle holder (F28 Supplemental)
+X-KDE-PluginInfo-Author=Artem Kavalerov
+X-KDE-PluginInfo-Email=fedora-design@lists.fedoraproject.org
+X-KDE-PluginInfo-Name=F28
+X-KDE-PluginInfo-Version=28.0
+X-KDE-PluginInfo-Website=http://fedoraproject.org/wiki/Design
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=CC0
+X-KDE-PluginInfo-EnabledByDefault=true
+
+[Settings]
+FallbackTheme=default
+
+[Wallpaper]
+defaultWallpaperTheme=F28
+defaultFileSuffix=.png
+defaultWidth=1920
+defaultHeight=1200
+
+[Branding]
+homepage=http://fedoraproject.org

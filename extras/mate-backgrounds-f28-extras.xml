@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>F28 Supplemental Wallpapers Slideshow</name>
+        <filename>/usr/share/backgrounds/f28/extras/f28-extras.xml</filename>
+        <options>zoom</options>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Dark Blue (F28 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f28/extras/dark-blue.jpg</filename>
+        <options>zoom</options>
+
+        <author>Fedora Design Team</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Dark Blue (F28 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f28/extras/dark-blue.png</filename>
+        <options>zoom</options>
+
+        <author>Fedora Design Team</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Aurora over Norway (F28 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f28/extras/aurora-over-norway.png </filename>
+        <options>zoom</options>
+
+        <author>Helena Bartosova</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Calm River (F28 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f28/extras/calm-river.png</filename>
+        <options>zoom</options>
+
+        <author>skamath</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>A special silent sunset (F28 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f28/extras/a-special-silent-sunset.jpg</filename>
+        <options>zoom</options>
+
+        <author>Sergio Cortinovis</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY 4.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Fedora Wallpaper U7 (F28 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f28/extras/fedora-wallpaper-u7.png</filename>
+        <options>zoom</options>
+
+        <author>utkarsha7</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>zen (F28 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f28/extras/zen.png 	</filename>
+        <options>zoom</options>
+
+        <author>hhlp hhlp-zen3.png</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Alley in Sarsina (F28 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f28/extras/alley-in-sarsina.CC-BY-SA 4.0</filename>
+        <options>zoom</options>
+
+        <author>Italy</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>Renato Biolcati Rinaldi</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Stora Hornsjön (F28 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f28/extras/stora-hornsjon.jpg</filename>
+        <options>zoom</options>
+
+        <author>Jeena Paradies</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>On the roadside (F28 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f28/extras/on-the-roadside.jpg</filename>
+        <options>zoom</options>
+
+        <author>Artem Kavalerov</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Mr (F28 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f28/extras/mr.png 	</filename>
+        <options>zoom</options>
+
+        <author>Subhra Majhi</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY 4.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Blur lights (F28 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f28/extras/blur-lights.png</filename>
+        <options>zoom</options>
+
+        <author>davidlibeau</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Morning at Étang de Berre (F28 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f28/extras/morning-at-etang-de-berre.png</filename>
+        <options>zoom</options>
+
+        <author>Folkert Meeuw</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Purple Dream (F28 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f28/extras/purple-dream.jpg</filename>
+        <options>zoom</options>
+
+        <author>gnokii</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Where does it end? (F28 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f28/extras/where-does-it-end?.jpg</filename>
+        <options>zoom</options>
+
+        <author>gnokii</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Candle holder (F28 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f28/extras/candle-holder.jpg</filename>
+        <options>zoom</options>
+
+        <author>Artem Kavalerov</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>cresent moon (F28 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f28/extras/cresent-moon.jpg</filename>
+        <options>zoom</options>
+
+        <author>rheslop</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Nightlights (F28 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f28/extras/nightlights.png</filename>
+        <options>zoom</options>
+
+        <author>Fredrik Loch</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+
+</wallpapers>
