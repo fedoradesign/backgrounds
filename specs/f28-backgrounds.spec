@@ -6,10 +6,10 @@
 %global with_animated 0
 
 # Enable Extras
-%global with_extras 0
+%global with_extras 1
 
 Name:		%{bgname}-backgrounds
-Version:	%{relnum}.0.0
+Version:	%{relnum}.1.0
 Release:	1%{?dist}
 Summary:	Fedora %{relnum} default desktop background
 
@@ -184,22 +184,24 @@ install -D -p -m644 %{SOURCE1} \
 %if %{with_animated}
 %{_datadir}/gnome-background-properties/%{bgname}-animated.xml
 %endif
+%dir %{_datadir}/gnome-background-properties/
 
 %files mate
 %{_datadir}/mate-background-properties/%{bgname}.xml
 %if %{with_animated}
 %{_datadir}/mate-background-properties/%{bgname}-animated.xml
 %endif
+%dir %{_datadir}/mate-background-properties/
 
 %files xfce
 %{_datadir}/xfce4/backdrops/%{bgname}.png
+%dir %{_datadir}/xfce4/
+%dir %{_datadir}/xfce4/backdrops/
 
 %if %{with_extras}
 %files extras-base
 %license CC-BY-SA-4.0 CC-BY-4.0 CC0-1.0 Attribution-Extras
-%{_datadir}/backgrounds/%{bgname}/extras/*.jpg
-%{_datadir}/backgrounds/%{bgname}/extras/*.png
-%{_datadir}/backgrounds/%{bgname}/extras/%{bgname}-extras.xml
+%{_datadir}/backgrounds/%{bgname}/extras/
 
 %files extras-gnome
 %{_datadir}/gnome-background-properties/%{bgname}-extras.xml
@@ -211,10 +213,7 @@ install -D -p -m644 %{SOURCE1} \
 %{_datadir}/mate-background-properties/%{bgname}-extras.xml
 
 %files extras-xfce
-%{_datadir}/xfce4/backdrops/*.jpg
-%{_datadir}/xfce4/backdrops/*.png
+%{_datadir}/xfce4/backdrops/
 %endif
 
 %changelog
-* sun Dec 17 2017 Luya Tshimbalanga <luya@fedoraproject.org> - 28.0.0-1
-- Initial release
