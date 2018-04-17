@@ -10,11 +10,6 @@
 
   <static>
     <duration>1800.0</duration>
-    <file>/usr/share/backgrounds/f28/extras/dark-blue.jpg</file>
-  </static>
-
-  <static>
-    <duration>1800.0</duration>
     <file>/usr/share/backgrounds/f28/extras/dark-blue.png</file>
   </static>
 
