@@ -35,12 +35,12 @@
 
   <static>
     <duration>1800.0</duration>
-    <file>/usr/share/backgrounds/f28/extras/zen.png 	</file>
+    <file>/usr/share/backgrounds/f28/extras/zen.png</file>
   </static>
 
   <static>
     <duration>1800.0</duration>
-    <file>/usr/share/backgrounds/f28/extras/alley-in-sarsina.CC-BY-SA 4.0</file>
+    <file>/usr/share/backgrounds/f28/extras/alley-in-sarsina.png</file>
   </static>
 
   <static>
@@ -55,7 +55,7 @@
 
   <static>
     <duration>1800.0</duration>
-    <file>/usr/share/backgrounds/f28/extras/mr.png 	</file>
+    <file>/usr/share/backgrounds/f28/extras/mr.png</file>
   </static>
 
   <static>
@@ -85,7 +85,7 @@
 
   <static>
     <duration>1800.0</duration>
-    <file>/usr/share/backgrounds/f28/extras/cresent-moon.jpg</file>
+    <file>/usr/share/backgrounds/f28/extras/cresent-moon.png</file>
   </static>
 
   <static>
