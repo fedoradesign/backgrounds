@@ -1,8 +1,8 @@
 <background>
   <starttime>
     <year>2018</year>
-    <month>05</month>
-    <day>01<day>
+    <month>10</month>
+    <day>23<day>
     <hour>07</hour>
     <minute>00</minute>
     <second>00</second>
@@ -14,13 +14,13 @@
 <duration>7200.0</duration>
 <file>
 	<!-- Wide 16:9 -->
-	<size width="1920" height="1080">/usr/share/backgrounds/f28/default-animated/tv-wide/f28-00-dawn.png</size>
+	<size width="1920" height="1080">/usr/share/backgrounds/f28/default-animated/tv-wide/f29-00-dawn.png</size>
 	<!-- Wide 16:10 -->
-	<size width="1920" height="1200">/usr/share/backgrounds/f28/default-animated/wide/f28-00-dawn.png</size>
+	<size width="1920" height="1200">/usr/share/backgrounds/f28/default-animated/wide/f29-00-dawn.png</size>
 	<!-- Standard 4:3 -->
-	<size width="2048" height="1536">/usr/share/backgrounds/f28/default-animated/standard/f28-00-dawn.png</size>
+	<size width="2048" height="1536">/usr/share/backgrounds/f28/default-animated/standard/f29-00-dawn.png</size>
 	<!-- Normalish 5:4 -->
-	<size width="1280" height="1024">/usr/share/backgrounds/f28/default-animated/normalish/f28-00-dawn.png</size>
+	<size width="1280" height="1024">/usr/share/backgrounds/f28/default-animated/normalish/f29-00-dawn.png</size>
 </file>
 </static>
 
@@ -73,10 +73,10 @@
 <static>
 <duration>7200.0</duration>
 <file>
-	<size width="1920" height="1080">/usr/share/backgrounds/f28/default-animated/tv-wide/f28-02-dusk.png</size>
-	<size width="1920" height="1200">/usr/share/backgrounds/f28/default-animated/wide/f28-02-dusk.png</size>
-	<size width="2048" height="1536">/usr/share/backgrounds/f28/default-animated/standard/f28-02-dusk.png</size>
-	<size width="1280" height="1024">/usr/share/backgrounds/f28/default-animated/normalish/f28-02-dusk.png</size>
+	<size width="1920" height="1080">/usr/share/backgrounds/f29/default-animated/tv-wide/f29-02-dusk.png</size>
+	<size width="1920" height="1200">/usr/share/backgrounds/f29/default-animated/wide/f29-02-dusk.png</size>
+	<size width="2048" height="1536">/usr/share/backgrounds/f29/default-animated/standard/f29-02-dusk.png</size>
+	<size width="1280" height="1024">/usr/share/backgrounds/f29/default-animated/normalish/f29-02-dusk.png</size>
 </file>
 </static>
 
@@ -84,16 +84,16 @@
 <transition type="overlay">
 <duration>7200.0</duration>
 <from>
-	<size width="1920" height="1080">/usr/share/backgrounds/f28/default-animated/tv-wide/f28-02-dusk.png</size>
-	<size width="1920" height="1200">/usr/share/backgrounds/f28/default-animated/wide/f28-02-dusk.png</size>
-	<size width="2048" height="1536">/usr/share/backgrounds/f28/default-animated/standard/f28-02-dusk.png</size>
-	<size width="1280" height="1024">/usr/share/backgrounds/f28/default-animated/normalish/f28-02-dusk.png</size>
+	<size width="1920" height="1080">/usr/share/backgrounds/f29/default-animated/tv-wide/f29-02-dusk.png</size>
+	<size width="1920" height="1200">/usr/share/backgrounds/f29/default-animated/wide/f29-02-dusk.png</size>
+	<size width="2048" height="1536">/usr/share/backgrounds/f29/default-animated/standard/f29-02-dusk.png</size>
+	<size width="1280" height="1024">/usr/share/backgrounds/f29/default-animated/normalish/f29-02-dusk.png</size>
 </from>
 <to>
-	<size width="1920" height="1080">/usr/share/backgrounds/f28/default-animated/tv-wide/f28-03-night.png</size>
-	<size width="1920" height="1200">/usr/share/backgrounds/f28/default-animated/wide/f28-03-night.png</size>
-	<size width="2048" height="1536">/usr/share/backgrounds/f28/default-animated/standard/f28-03-night.png</size>
-	<size width="1280" height="1024">/usr/share/backgrounds/f28/default-animated/normalish/f28-03-night.png</size>
+	<size width="1920" height="1080">/usr/share/backgrounds/f29/default-animated/tv-wide/f29-03-night.png</size>
+	<size width="1920" height="1200">/usr/share/backgrounds/f29/default-animated/wide/f29-03-night.png</size>
+	<size width="2048" height="1536">/usr/share/backgrounds/f29/default-animated/standard/f29-03-night.png</size>
+	<size width="1280" height="1024">/usr/share/backgrounds/f29/default-animated/normalish/f29-03-night.png</size>
 </to>
 </transition>
 
@@ -101,10 +101,10 @@
 <static>
 <duration>21600.0</duration>
 <file>
-	<size width="1920" height="1080">/usr/share/backgrounds/f28/default-animated/tv-wide/f28-03-night.png</size>
-	<size width="1920" height="1200">/usr/share/backgrounds/f28/default-animated/wide/f28-03-night.png</size>
-	<size width="2048" height="1536">/usr/share/backgrounds/f28/default-animated/standard/f28-03-night.png</size>
-	<size width="1280" height="1024">/usr/share/backgrounds/f28/default-animated/normalish/f28-03-night.png</size>
+	<size width="1920" height="1080">/usr/share/backgrounds/f29/default-animated/tv-wide/f29-03-night.png</size>
+	<size width="1920" height="1200">/usr/share/backgrounds/f29/default-animated/wide/f29-03-night.png</size>
+	<size width="2048" height="1536">/usr/share/backgrounds/f29/default-animated/standard/f29-03-night.png</size>
+	<size width="1280" height="1024">/usr/share/backgrounds/f29/default-animated/normalish/f29-03-night.png</size>
 </file>
 </static>
 
@@ -112,16 +112,16 @@
 <transition type="overlay">
 <duration>7200.0</duration>
 <from>
-	<size width="1920" height="1080">/usr/share/backgrounds/f28/default-animated/tv-wide/f28-03-night.png</size>
-	<size width="1920" height="1200">/usr/share/backgrounds/f28/default-animated/wide/f28-03-night.png</size>
-	<size width="2048" height="1536">/usr/share/backgrounds/f28/default-animated/standard/f28-03-night.png</size>
-	<size width="1280" height="1024">/usr/share/backgrounds/f28/default-animated/normalish/f28-03-night.png</size>
+	<size width="1920" height="1080">/usr/share/backgrounds/f29/default-animated/tv-wide/f29-03-night.png</size>
+	<size width="1920" height="1200">/usr/share/backgrounds/f29/default-animated/wide/f29-03-night.png</size>
+	<size width="2048" height="1536">/usr/share/backgrounds/f29/default-animated/standard/f29-03-night.png</size>
+	<size width="1280" height="1024">/usr/share/backgrounds/f29/default-animated/normalish/f29-03-night.png</size>
 </from>
 <to>
-	<size width="1920" height="1080">/usr/share/backgrounds/f28/default-animated/tv-wide/f28-00-dawn.png</size>
-	<size width="1920" height="1200">/usr/share/backgrounds/f28/default-animated/wide/f28-00-dawn.png</size>
-	<size width="2048" height="1536">/usr/share/backgrounds/f28/default-animated/standard/f28-00-dawn.png</size>
-	<size width="1280" height="1024">/usr/share/backgrounds/f28/default-animated/normalish/f28-00-dawn.png</size>
+	<size width="1920" height="1080">/usr/share/backgrounds/f29/default-animated/tv-wide/f29-00-dawn.png</size>
+	<size width="1920" height="1200">/usr/share/backgrounds/f29/default-animated/wide/f29-00-dawn.png</size>
+	<size width="2048" height="1536">/usr/share/backgrounds/f29/default-animated/standard/f29-00-dawn.png</size>
+	<size width="1280" height="1024">/usr/share/backgrounds/f29/default-animated/normalish/f29-00-dawn.png</size>
 </to>
 </transition>
 
