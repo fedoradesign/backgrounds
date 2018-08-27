@@ -1,5 +1,5 @@
-WP_NAME=f28
-WP_BIGNAME=F28
+WP_NAME=f29
+WP_BIGNAME=F29
 WP_DIR=$(DESTDIR)/usr/share/backgrounds/$(WP_NAME)
 GNOME_BG_DIR=$(DESTDIR)/usr/share/gnome-background-properties
 KDE_BG_DIR=$(DESTDIR)/usr/share/wallpapers/
