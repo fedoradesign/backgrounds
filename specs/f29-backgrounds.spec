@@ -9,7 +9,7 @@
 %global with_extras 1
 
 Name:		%{bgname}-backgrounds
-Version:	%{relnum}.1.0
+Version:	%{relnum}.0.0
 Release:	1%{?dist}
 Summary:	Fedora %{relnum} default desktop background
 
