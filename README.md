@@ -1,2 +1,2 @@
-# f29-backgrounds
-A set of default and supplemental wallpapers for Fedora 29
+# f30-backgrounds
+A set of default and supplemental wallpapers for Fedora 30
