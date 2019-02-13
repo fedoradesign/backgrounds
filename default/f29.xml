@@ -1,8 +1,8 @@
 <background>
   <starttime>
-    <year>2018</year>
-    <month>10</month>
-    <day>23</day>
+    <year>2019</year>
+    <month>05</month>
+    <day>07</day>
     <hour>00</hour>
     <minute>00</minute>
     <second>00</second>
@@ -11,13 +11,13 @@
 <duration>10000000000.0</duration>
 <file>
 	<!-- Wide 16:9 -->
-	<size width="1920" height="1080">/usr/share/backgrounds/f29/default/tv-wide/f29.png</size>
+	<size width="1920" height="1080">/usr/share/backgrounds/f30/default/tv-wide/f30.png</size>
 	<!-- Wide 16:10 -->
-	<size width="1920" height="1200">/usr/share/backgrounds/f29/default/wide/f29.png</size>
+	<size width="1920" height="1200">/usr/share/backgrounds/f30/default/wide/f30.png</size>
 	<!-- Standard 4:3 -->
-	<size width="2048" height="1536">/usr/share/backgrounds/f29/default/standard/f29.png</size>
+	<size width="2048" height="1536">/usr/share/backgrounds/f30/default/standard/f30.png</size>
 	<!-- Normalish 5:4 -->
-	<size width="1280" height="1024">/usr/share/backgrounds/f29/default/normalish/f29.png</size>
+	<size width="1280" height="1024">/usr/share/backgrounds/f30/default/normalish/f30.png</size>
 </file>
 </static>
 

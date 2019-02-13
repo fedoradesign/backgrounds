@@ -2,8 +2,8 @@
 <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
 <wallpapers>
     <wallpaper deleted="false">
-        <name>Fedora 29 Default</name>
-        <filename>/usr/share/backgrounds/f29/default/f29.xml</filename>
+        <name>Fedora 30 Default</name>
+        <filename>/usr/share/backgrounds/f30/default/f30.xml</filename>
         <options>stretched</options>
     </wallpaper>
 </wallpapers>
