@@ -1,9 +1,16 @@
 <background>
   <starttime>
+<<<<<<< HEAD
     <year>2019</year>
     <month>05</month>
     <day>07</day>
     <hour>00</hour>
+=======
+    <year>2018</year>
+    <month>10</month>
+    <day>23</day>
+    <hour>07</hour>
+>>>>>>> ab7e940d92dcf15873439e5febfa5aefe0b85f78
     <minute>00</minute>
     <second>00</second>
   </starttime>
@@ -14,6 +21,7 @@
 <duration>7200.0</duration>
 <file>
 	<!-- Wide 16:9 -->
+<<<<<<< HEAD
 	<size width="1920" height="1080">/usr/share/backgrounds/f30/default-animated/tv-wide/f30-00-dawn.png</size>
 	<!-- Wide 16:10 -->
 	<size width="1920" height="1200">/usr/share/backgrounds/f30/default-animated/wide/f30-00-dawn.png</size>
@@ -21,6 +29,15 @@
 	<size width="2048" height="1536">/usr/share/backgrounds/f30/default-animated/standard/f30-00-dawn.png</size>
 	<!-- Normalish 5:4 -->
 	<size width="1280" height="1024">/usr/share/backgrounds/f30/default-animated/normalish/f30-00-dawn.png</size>
+=======
+	<size width="1920" height="1080">/usr/share/backgrounds/f29/default-animated/tv-wide/f29-00-dawn.png</size>
+	<!-- Wide 16:10 -->
+	<size width="1920" height="1200">/usr/share/backgrounds/f29/default-animated/wide/f29-00-dawn.png</size>
+	<!-- Standard 4:3 -->
+	<size width="2048" height="1536">/usr/share/backgrounds/f29/default-animated/standard/f29-00-dawn.png</size>
+	<!-- Normalish 5:4 -->
+	<size width="1280" height="1024">/usr/share/backgrounds/f29/default-animated/normalish/f29-00-dawn.png</size>
+>>>>>>> ab7e940d92dcf15873439e5febfa5aefe0b85f78
 </file>
 </static>
 
@@ -28,6 +45,7 @@
 <transition type="overlay">
 <duration>7200.0</duration>
 <from>
+<<<<<<< HEAD
 	<size width="1920" height="1080">/usr/share/backgrounds/f30/default-animated/tv-wide/f30-00-dawn.png</size>
 	<size width="1920" height="1200">/usr/share/backgrounds/f30/default-animated/wide/f30-00-dawn.png</size>
 	<size width="2048" height="1536">/usr/share/backgrounds/f30/default-animated/standard/f30-00-dawn.png</size>
@@ -38,6 +56,18 @@
 	<size width="1920" height="1200">/usr/share/backgrounds/f30/default-animated/wide/f30-01-day.png</size>
 	<size width="2048" height="1536">/usr/share/backgrounds/f30/default-animated/standard/f30-01-day.png</size>
 	<size width="1280" height="1024">/usr/share/backgrounds/f30/default-animated/normalish/f30-01-day.png</size>
+=======
+	<size width="1920" height="1080">/usr/share/backgrounds/f29/default-animated/tv-wide/f29-00-dawn.png</size>
+	<size width="1920" height="1200">/usr/share/backgrounds/f29/default-animated/wide/f29-00-dawn.png</size>
+	<size width="2048" height="1536">/usr/share/backgrounds/f29/default-animated/standard/f29-00-dawn.png</size>
+	<size width="1280" height="1024">/usr/share/backgrounds/f29/default-animated/normalish/f29-00-dawn.png</size>
+</from>
+<to>
+	<size width="1920" height="1080">/usr/share/backgrounds/f29/default-animated/tv-wide/f29-01-day.png</size>
+	<size width="1920" height="1200">/usr/share/backgrounds/f29/default-animated/wide/f29-01-day.png</size>
+	<size width="2048" height="1536">/usr/share/backgrounds/f29/default-animated/standard/f29-01-day.png</size>
+	<size width="1280" height="1024">/usr/share/backgrounds/f29/default-animated/normalish/f29-01-day.png</size>
+>>>>>>> ab7e940d92dcf15873439e5febfa5aefe0b85f78
 </to>
 </transition>
 
@@ -45,10 +75,17 @@
 <static>
 <duration>14400.0</duration>
 <file>
+<<<<<<< HEAD
 	<size width="1920" height="1080">/usr/share/backgrounds/f30/default-animated/tv-wide/f30-01-day.png</size>
 	<size width="1920" height="1200">/usr/share/backgrounds/f30/default-animated/wide/f30-01-day.png</size>
 	<size width="2048" height="1536">/usr/share/backgrounds/f30/default-animated/standard/f30-01-day.png</size>
 	<size width="1280" height="1024">/usr/share/backgrounds/f30/default-animated/normalish/f30-01-day.png</size>
+=======
+	<size width="1920" height="1080">/usr/share/backgrounds/f29/default-animated/tv-wide/f29-01-day.png</size>
+	<size width="1920" height="1200">/usr/share/backgrounds/f29/default-animated/wide/f29-01-day.png</size>
+	<size width="2048" height="1536">/usr/share/backgrounds/f29/default-animated/standard/f29-01-day.png</size>
+	<size width="1280" height="1024">/usr/share/backgrounds/f29/default-animated/normalish/f29-01-day.png</size>
+>>>>>>> ab7e940d92dcf15873439e5febfa5aefe0b85f78
 </file>
 </static>
 
@@ -56,6 +93,7 @@
 <transition type="overlay">
 <duration>14400.0</duration>
 <from>
+<<<<<<< HEAD
 	<size width="1920" height="1080">/usr/share/backgrounds/f30/default-animated/tv-wide/f30-01-day.png</size>
 	<size width="1920" height="1200">/usr/share/backgrounds/f30/default-animated/wide/f30-01-day.png</size>
 	<size width="2048" height="1536">/usr/share/backgrounds/f30/default-animated/standard/f30-01-day.png</size>
@@ -66,6 +104,18 @@
 	<size width="1920" height="1200">/usr/share/backgrounds/f30/default-animated/wide/f30-02-dusk.png</size>
 	<size width="2048" height="1536">/usr/share/backgrounds/f30/default-animated/standard/f30-02-dusk.png</size>
 	<size width="1280" height="1024">/usr/share/backgrounds/f30/default-animated/normalish/f30-02-dusk.png</size>
+=======
+	<size width="1920" height="1080">/usr/share/backgrounds/f29/default-animated/tv-wide/f29-01-day.png</size>
+	<size width="1920" height="1200">/usr/share/backgrounds/f29/default-animated/wide/f29-01-day.png</size>
+	<size width="2048" height="1536">/usr/share/backgrounds/f29/default-animated/standard/f29-01-day.png</size>
+	<size width="1280" height="1024">/usr/share/backgrounds/f29/default-animated/normalish/f29-01-day.png</size>
+</from>
+<to>
+	<size width="1920" height="1080">/usr/share/backgrounds/f29/default-animated/tv-wide/f29-02-dusk.png</size>
+	<size width="1920" height="1200">/usr/share/backgrounds/f29/default-animated/wide/f29-02-dusk.png</size>
+	<size width="2048" height="1536">/usr/share/backgrounds/f29/default-animated/standard/f29-02-dusk.png</size>
+	<size width="1280" height="1024">/usr/share/backgrounds/f29/default-animated/normalish/f29-02-dusk.png</size>
+>>>>>>> ab7e940d92dcf15873439e5febfa5aefe0b85f78
 </to>
 </transition>
 
