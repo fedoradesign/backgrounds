@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>F30 Supplemental Wallpapers Slideshow</name>
+        <filename>/usr/share/backgrounds/f30/extras/f30-extras.xml</filename>
+        <options>zoom</options>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Blue Mystic (F30 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f30/extras/blue-mystic.jpg</filename>
+        <options>zoom</options>
+
+        <author>Clyde He</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC0 1.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Canadian Rockies (F30 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f30/extras/canadian-rockies.png</filename>
+        <options>zoom</options>
+
+        <author>Helena Bartosova</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Pink House (F30 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f30/extras/pink-house.jpg</filename>
+        <options>zoom</options>
+
+        <author>Everaldo Coelho</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC0 1.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>I see stars (F30 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f30/extras/i-see-stars.jpg</filename>
+        <options>zoom</options>
+
+        <author>haven1</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC0 1.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Lonely tree in kenya (F30 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f30/extras/lonely-tree-in-kenya.jpg</filename>
+        <options>zoom</options>
+
+        <author>lhirlimann</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Sunset on Skye (F30 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f30/extras/sunset-on-skye.jpg</filename>
+        <options>zoom</options>
+
+        <author>noe38330</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Zen Lover (F30 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f30/extras/zen-lover.png</filename>
+        <options>zoom</options>
+
+        <author>hhlp</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Mountains of North Iran (F30 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f30/extras/mountains-of-north-iran.jpg</filename>
+        <options>zoom</options>
+
+        <author>ahalman</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Great Oak in Claremont (F30 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f30/extras/great-oak-in-claremont.jpg</filename>
+        <options>zoom</options>
+
+        <author>n8inup</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Enjoying the sun (F30 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f30/extras/enjoying-the-sun.jpg</filename>
+        <options>zoom</options>
+
+        <author>lhirlimann</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Dortmund Sunset (F30 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f30/extras/dortmund-sunset.png</filename>
+        <options>zoom</options>
+
+        <author>Hendrik Borghorst</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>mushroom family (F30 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f30/extras/mushroom-family.jpg</filename>
+        <options>zoom</options>
+
+        <author>ahalman</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Wasser im Winter (F30 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f30/extras/wasser-im-winter.png</filename>
+        <options>zoom</options>
+
+        <author>Alexander Hanauer</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Fabric (F30 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f30/extras/fabric.jpg</filename>
+        <options>zoom</options>
+
+        <author>Matthew Andersen</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Wheat (F30 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f30/extras/wheat.jpg</filename>
+        <options>zoom</options>
+
+        <author>psav</author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY 4.0</license>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Snow on Balanced Rock (F30 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f30/extras/snow-on-balanced-rock.jpg</filename>
+        <options>zoom</options>
+
+        <author>n8inup </author>
+        <email>design-team@lists.fedoraproject.org</email>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+
+</wallpapers>

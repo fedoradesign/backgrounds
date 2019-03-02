@@ -7,8 +7,22 @@ MKDIR=/bin/mkdir -p
 INSTALL=/usr/bin/install -p -m644 -D
 LN_S=/bin/ln -s
 
-THEMES_JPG=
-THEMES_PNG=dark-blue
+THEMES_JPG=blue-mystic\
+	pink-house\
+	i-see-stars\
+	lonely-tree-in-kenya\
+	sunset-on-skye\
+	mountains-of-north-iran\
+	great-oak-in-claremont\
+	enjoying-the-sun\
+	mushroom-family\
+	fabric\
+	wheat\
+	snow-on-balanced-rock
+THEMES_PNG=canadian-rockies\
+	zen-lover\
+	dortmund-sunset\
+	wasser-im-winter
 
 all:
 

@@ -1,9 +1,9 @@
 # dnf install rubygem-i18n html2text wget
 require "i18n"
 
-WNAME = 'f29'
-WNAME_FULL = 'F29'
-WVERSION = '29.0'
+WNAME = 'f30'
+WNAME_FULL = 'F30'
+WVERSION = '30.0'
 
 # load authors' info from prepared file
 authors = {}
@@ -74,9 +74,9 @@ f_slideshow_xml = File.new("#{WNAME}-extras.xml", 'w')
 f_slideshow_xml.puts <<EOF
 <background>
   <starttime>
-    <year>2017</year>
-    <month>10</month>
-    <day>24</day>
+    <year>2019</year>
+    <month>04</month>
+    <day>30</day>
     <hour>00</hour>
     <minute>00</minute>
     <second>00</second>
