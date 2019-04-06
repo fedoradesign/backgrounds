@@ -52,7 +52,7 @@
 </file>
 </static>
 
-<!-- It's 3 PM, and we're starting to transition to dusk. Transition completes at 7 PM. -->
+<!-- It's 3 PM, and we're starting to transition to sunset. Transition completes at 7 PM. -->
 <transition type="overlay">
 <duration>14400.0</duration>
 <from>
@@ -62,49 +62,49 @@
 	<size width="1280" height="1024">/usr/share/backgrounds/f30/default-animated/normalish/f30-01-day.png</size>
 </from>
 <to>
-	<size width="1920" height="1080">/usr/share/backgrounds/f30/default-animated/tv-wide/f30-02-dusk.png</size>
-	<size width="1920" height="1200">/usr/share/backgrounds/f30/default-animated/wide/f30-02-dusk.png</size>
-	<size width="2048" height="1536">/usr/share/backgrounds/f30/default-animated/standard/f30-02-dusk.png</size>
-	<size width="1280" height="1024">/usr/share/backgrounds/f30/default-animated/normalish/f30-02-dusk.png</size>
+	<size width="1920" height="1080">/usr/share/backgrounds/f30/default-animated/tv-wide/f30-02-sunset.png</size>
+	<size width="1920" height="1200">/usr/share/backgrounds/f30/default-animated/wide/f30-02-sunset.png</size>
+	<size width="2048" height="1536">/usr/share/backgrounds/f30/default-animated/standard/f30-02-sunset.png</size>
+	<size width="1280" height="1024">/usr/share/backgrounds/f30/default-animated/normalish/f30-02-sunset.png</size>
 </to>
 </transition>
 
-<!-- It's 7 PM, we're showing the dusk for 2 hours ending at 9 PM. -->
+<!-- It's 7 PM, we're showing the sunset for 2 hours ending at 9 PM. -->
 <static>
 <duration>7200.0</duration>
 <file>
-	<size width="1920" height="1080">/usr/share/backgrounds/f30/default-animated/tv-wide/f30-02-dusk.png</size>
-	<size width="1920" height="1200">/usr/share/backgrounds/f30/default-animated/wide/f30-02-dusk.png</size>
-	<size width="2048" height="1536">/usr/share/backgrounds/f30/default-animated/standard/f30-02-dusk.png</size>
-	<size width="1280" height="1024">/usr/share/backgrounds/f30/default-animated/normalish/f30-02-dusk.png</size>
+	<size width="1920" height="1080">/usr/share/backgrounds/f30/default-animated/tv-wide/f30-02-sunset.png</size>
+	<size width="1920" height="1200">/usr/share/backgrounds/f30/default-animated/wide/f30-02-sunset.png</size>
+	<size width="2048" height="1536">/usr/share/backgrounds/f30/default-animated/standard/f30-02-sunset.png</size>
+	<size width="1280" height="1024">/usr/share/backgrounds/f30/default-animated/normalish/f30-02-sunset.png</size>
 </file>
 </static>
 
-<!-- It's 9 PM, and we're starting to transition to night. Transition completes at 11 PM. -->
+<!-- It's 9 PM, and we're starting to transition to twilight. Transition completes at 11 PM. -->
 <transition type="overlay">
 <duration>7200.0</duration>
 <from>
-	<size width="1920" height="1080">/usr/share/backgrounds/f30/default-animated/tv-wide/f30-02-dusk.png</size>
-	<size width="1920" height="1200">/usr/share/backgrounds/f30/default-animated/wide/f30-02-dusk.png</size>
-	<size width="2048" height="1536">/usr/share/backgrounds/f30/default-animated/standard/f30-02-dusk.png</size>
-	<size width="1280" height="1024">/usr/share/backgrounds/f30/default-animated/normalish/f30-02-dusk.png</size>
+	<size width="1920" height="1080">/usr/share/backgrounds/f30/default-animated/tv-wide/f30-02-sunset.png</size>
+	<size width="1920" height="1200">/usr/share/backgrounds/f30/default-animated/wide/f30-02-sunset.png</size>
+	<size width="2048" height="1536">/usr/share/backgrounds/f30/default-animated/standard/f30-02-sunset.png</size>
+	<size width="1280" height="1024">/usr/share/backgrounds/f30/default-animated/normalish/f30-02-sunset.png</size>
 </from>
 <to>
-	<size width="1920" height="1080">/usr/share/backgrounds/f30/default-animated/tv-wide/f30-03-night.png</size>
-	<size width="1920" height="1200">/usr/share/backgrounds/f30/default-animated/wide/f30-03-night.png</size>
-	<size width="2048" height="1536">/usr/share/backgrounds/f30/default-animated/standard/f30-03-night.png</size>
-	<size width="1280" height="1024">/usr/share/backgrounds/f30/default-animated/normalish/f30-03-night.png</size>
+	<size width="1920" height="1080">/usr/share/backgrounds/f30/default-animated/tv-wide/f30-03-twilight.png</size>
+	<size width="1920" height="1200">/usr/share/backgrounds/f30/default-animated/wide/f30-03-twilight.png</size>
+	<size width="2048" height="1536">/usr/share/backgrounds/f30/default-animated/standard/f30-03-twilight.png</size>
+	<size width="1280" height="1024">/usr/share/backgrounds/f30/default-animated/normalish/f30-03-twilight.png</size>
 </to>
 </transition>
 
-<!-- It's 11 PM, we're showing the night till 5 AM. -->
+<!-- It's 11 PM, we're showing the twilight till 5 AM. -->
 <static>
 <duration>21600.0</duration>
 <file>
-	<size width="1920" height="1080">/usr/share/backgrounds/f30/default-animated/tv-wide/f30-03-night.png</size>
-	<size width="1920" height="1200">/usr/share/backgrounds/f30/default-animated/wide/f30-03-night.png</size>
-	<size width="2048" height="1536">/usr/share/backgrounds/f30/default-animated/standard/f30-03-night.png</size>
-	<size width="1280" height="1024">/usr/share/backgrounds/f30/default-animated/normalish/f30-03-night.png</size>
+	<size width="1920" height="1080">/usr/share/backgrounds/f30/default-animated/tv-wide/f30-03-twilight.png</size>
+	<size width="1920" height="1200">/usr/share/backgrounds/f30/default-animated/wide/f30-03-twilight.png</size>
+	<size width="2048" height="1536">/usr/share/backgrounds/f30/default-animated/standard/f30-03-twilight.png</size>
+	<size width="1280" height="1024">/usr/share/backgrounds/f30/default-animated/normalish/f30-03-twilight.png</size>
 </file>
 </static>
 
@@ -112,10 +112,10 @@
 <transition type="overlay">
 <duration>7200.0</duration>
 <from>
-	<size width="1920" height="1080">/usr/share/backgrounds/f30/default-animated/tv-wide/f30-03-night.png</size>
-	<size width="1920" height="1200">/usr/share/backgrounds/f30/default-animated/wide/f30-03-night.png</size>
-	<size width="2048" height="1536">/usr/share/backgrounds/f30/default-animated/standard/f30-03-night.png</size>
-	<size width="1280" height="1024">/usr/share/backgrounds/f30/default-animated/normalish/f30-03-night.png</size>
+	<size width="1920" height="1080">/usr/share/backgrounds/f30/default-animated/tv-wide/f30-03-twilight.png</size>
+	<size width="1920" height="1200">/usr/share/backgrounds/f30/default-animated/wide/f30-03-twilight.png</size>
+	<size width="2048" height="1536">/usr/share/backgrounds/f30/default-animated/standard/f30-03-twilight.png</size>
+	<size width="1280" height="1024">/usr/share/backgrounds/f30/default-animated/normalish/f30-03-twilight.png</size>
 </from>
 <to>
 	<size width="1920" height="1080">/usr/share/backgrounds/f30/default-animated/tv-wide/f30-00-dawn.png</size>
