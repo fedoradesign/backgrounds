@@ -4,12 +4,12 @@ NAME =  f30-backgrounds-$(VERSION)
 
 all:
 	@for i in $(SUBDIRS) ; do \
-		(cd $$i; make) ;\
+		(cd $$i; $(MAKE)) ;\
 	done;
 
 install:
 	@for i in $(SUBDIRS) ; do \
-		(cd $$i; make install) ; \
+		(cd $$i; $(MAKE) install) ; \
 	done;
 
 dist:
