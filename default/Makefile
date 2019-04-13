@@ -27,10 +27,10 @@ install:
 	   $(INSTALL) $${size}/$(WP_NAME)-01-day.png		    $(WP_DIR)/default/$${size}/$(WP_NAME).png ; \
 	   $(LN_S) ../../default/$${size}/$(WP_NAME).png	    $(WP_DIR)/default-animated/$${size}/$(WP_NAME)-01-day.png ; \
 	   for tod in 00-dawn 02-sunset 03-twilight; do \
-	      $(INSTALL) $${size}/$(WP_NAME)-$${tod}.jpg 		$(WP_DIR)/default-animated/$${size}/$(WP_NAME)-$${tod}.jpg ; \
+	#~      $(INSTALL) $${size}/$(WP_NAME)-$${tod}.jpg 		$(WP_DIR)/default-animated/$${size}/$(WP_NAME)-$${tod}.jpg ; \
 	      $(INSTALL) $${size}/$(WP_NAME)-$${tod}.png 		$(WP_DIR)/default-animated/$${size}/$(WP_NAME)-$${tod}.png ; \
 	    done; \
-	    $(INSTALL) $${size}/$(WP_NAME)-01-day.jpg		    $(WP_DIR)/default-animated/$${size}/$(WP_NAME)-01-day.jpg ; \
+	 #~ $(INSTALL) $${size}/$(WP_NAME)-01-day.jpg		    $(WP_DIR)/default-animated/$${size}/$(WP_NAME)-01-day.jpg ; \
 	done;
 	$(INSTALL) $(WP_NAME).xml         		            $(WP_DIR)/default/$(WP_NAME).xml
 	$(INSTALL) gnome-backgrounds-$(WP_NAME).xml 		$(GNOME_BG_DIR)/$(WP_NAME).xml
