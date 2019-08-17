@@ -1,9 +1,9 @@
 # dnf install rubygem-i18n html2text wget
 require "i18n"
 
-WNAME = 'f30'
-WNAME_FULL = 'F30'
-WVERSION = '30.0'
+WNAME = 'f31'
+WNAME_FULL = 'F31'
+WVERSION = '31.0'
 
 # load authors' info from prepared file
 authors = {}
@@ -135,9 +135,9 @@ Licence: #{theme[:licence]}
         <filename>#{filename}</filename>
         <options>zoom</options>
 
-        <author>#{theme[:author]}</author>
+        <!-- author>#{theme[:author]}</author>
         <email>design-team@lists.fedoraproject.org</email>
-        <license>#{theme[:licence]}</license>
+        <license>#{theme[:licence]}</license -->
     </wallpaper>
 
   EOF
@@ -148,16 +148,18 @@ Licence: #{theme[:licence]}
   f_desktop.puts <<-EOF
 [Desktop Entry]
 Name=#{theme[:name]} (#{WNAME_FULL} Supplemental)
+
 X-KDE-PluginInfo-Name=#{theme[:name]} (#{WNAME_FULL} Supplemental)
 X-KDE-PluginInfo-Author=#{theme[:author]}
 X-KDE-PluginInfo-Email=fedora-design@lists.fedoraproject.org
 X-KDE-PluginInfo-Name=#{WNAME_FULL}
 X-KDE-PluginInfo-Version=#{WVERSION}
-X-KDE-PluginInfo-Website=http://fedoraproject.org/wiki/Design
+X-KDE-PluginInfo-Website=https://fedoraproject.org/wiki/Design
 X-KDE-PluginInfo-Category=
 X-KDE-PluginInfo-Depends=
 X-KDE-PluginInfo-License=#{theme[:licence]}
 X-KDE-PluginInfo-EnabledByDefault=true
+X-Plasma-API=5.0
 
 [Settings]
 FallbackTheme=default
@@ -169,7 +171,7 @@ defaultWidth=1920
 defaultHeight=1200
 
 [Branding]
-homepage=http://fedoraproject.org
+homepage=https://fedoraproject.org
   EOF
   f_desktop.close
 end
@@ -269,4 +271,4 @@ EOF
 
 f_makefile.close
 
-puts "Done"
+puts "Task Done"
