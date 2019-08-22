@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
-<wallpapers>
-    <wallpaper deleted="false">
-        <name>Fedora 30 Default</name>
-        <filename>/usr/share/backgrounds/f30/default/f30.xml</filename>
-        <options>stretched</options>
-    </wallpaper>
-</wallpapers>
