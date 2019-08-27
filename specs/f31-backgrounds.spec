@@ -3,7 +3,7 @@
 %global bgname %(t="%{Bg_Name}";echo ${t,,})
 
 # Enable Animation
-%global with_animated 0
+%global with_animated 1
 
 # Enable Extras
 %global with_extras 1
