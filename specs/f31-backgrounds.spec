@@ -147,9 +147,6 @@ This package contains F%{relnum} supplemental wallpapers for XFCE
 %install
 %make_install
 
-install -D -p -m644 %{SOURCE1} \
-%{buildroot}%{_datadir}/plasma/desktoptheme/%{Bg_Name}/metadata.desktop
-
 %files
 %doc
 
