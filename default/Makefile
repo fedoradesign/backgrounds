@@ -55,6 +55,7 @@ install:
 	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/tv-wide/$(WP_NAME).png \
 	          $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images/$${res}.png ; \
 	done;
+	$(MKDIR) $(PLASMA_BG_DIR)/$(WP_NAME)
 	$(INSTALL) $(WP_NAME)-metadata.desktop	$(PLASMA_BG_DIR)/$(WP_NAME)/metadata.xml
 	$(MKDIR) $(MATE_BG_DIR)
 	$(INSTALL) mate-backgrounds-$(WP_NAME).xml 		$(MATE_BG_DIR)/$(WP_NAME).xml
