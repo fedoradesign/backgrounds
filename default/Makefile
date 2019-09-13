@@ -4,7 +4,7 @@ WP_DIR=$(DESTDIR)/usr/share/backgrounds/$(WP_NAME)
 GNOME_BG_DIR=$(DESTDIR)/usr/share/gnome-background-properties
 KDE_BG_DIR=$(DESTDIR)/usr/share/wallpapers
 MATE_BG_DIR=$(DESTDIR)/usr/share/mate-background-properties
-PLASMA_BG_DIR=$(DESTDIR)/usr/share/plasma/desktopthemes
+PLASMA_BG_DIR=$(DESTDIR)/usr/share/plasma/desktoptheme
 XFCE_BG_DIR=$(DESTDIR)/usr/share/xfce4/backdrops
 INKSCAPE=/usr/bin/inkscape
 MKDIR=/bin/mkdir -p
@@ -55,7 +55,8 @@ install:
 	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/tv-wide/$(WP_NAME).png \
 	          $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images/$${res}.png ; \
 	done;
-	$(INSTALL) $(WP_NAME)-metadata.desktop	$(PLASMA_BG_DIR)/$(WP_NAME)/metadata.xml
+	$(MKDIR) $(PLASMA_BG_DIR)/$(WP_BIGNAME)
+	$(INSTALL) $(WP_NAME)-metadata.desktop	$(PLASMA_BG_DIR)/$(WP_BIGNAME)/metadata.desktop
 	$(MKDIR) $(MATE_BG_DIR)
 	$(INSTALL) mate-backgrounds-$(WP_NAME).xml 		$(MATE_BG_DIR)/$(WP_NAME).xml
 	$(INSTALL) mate-backgrounds-$(WP_NAME)-animated.xml 		$(MATE_BG_DIR)/$(WP_NAME)-animated.xml
