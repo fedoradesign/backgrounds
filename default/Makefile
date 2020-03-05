@@ -1,5 +1,5 @@
-WP_NAME=f31
-WP_BIGNAME=F31
+WP_NAME=f32
+WP_BIGNAME=F32
 WP_DIR=$(DESTDIR)/usr/share/backgrounds/$(WP_NAME)
 GNOME_BG_DIR=$(DESTDIR)/usr/share/gnome-background-properties
 KDE_BG_DIR=$(DESTDIR)/usr/share/wallpapers
@@ -14,29 +14,22 @@ LN_S=/bin/ln -s
 all:
 
 install:
-	$(MKDIR) $(WP_DIR)/default/wide
-	$(MKDIR) $(WP_DIR)/default/tv-wide
-	$(MKDIR) $(WP_DIR)/default/standard
-	$(MKDIR) $(WP_DIR)/default/normalish
-	$(MKDIR) $(WP_DIR)/default-animated/wide
-	$(MKDIR) $(WP_DIR)/default-animated/tv-wide
-	$(MKDIR) $(WP_DIR)/default-animated/standard
-	$(MKDIR) $(WP_DIR)/default-animated/normalish
+	$(MKDIR) $(WP_DIR)/default
+	$(MKDIR) $(WP_DIR)/default-animated
 	$(MKDIR) $(GNOME_BG_DIR)
-	for size in normalish standard wide tv-wide; do \
-	#~ $(INSTALL) $${size}/$(WP_NAME).png $(WP_DIR)/default/$${size}/$(WP_NAME).png \
-	   $(INSTALL) $${size}/$(WP_NAME)-01-day.png		    $(WP_DIR)/default/$${size}/$(WP_NAME).png ; \
-	   $(LN_S) ../../default/$${size}/$(WP_NAME).png	    $(WP_DIR)/default-animated/$${size}/$(WP_NAME)-01-day.png ; \
-	   for tod in 00-dawn 02-sunset 03-twilight; do \
+	$(INSTALL) $(WP_NAME).png $(WP_DIR)/default/$(WP_NAME).png \
+	#~   $(INSTALL) $${size}/$(WP_NAME)-01-day.png		    $(WP_DIR)/default/$${size}/$(WP_NAME).png ; \
+	#~   $(LN_S) ../../default/$${size}/$(WP_NAME).png	    $(WP_DIR)/default-animated/$${size}/$(WP_NAME)-01-day.png ; \
+	#~   for tod in 00-dawn 02-sunset 03-twilight; do \
 	#~      $(INSTALL) $${size}/$(WP_NAME)-$${tod}.jpg 		$(WP_DIR)/default-animated/$${size}/$(WP_NAME)-$${tod}.jpg ; \
-	      $(INSTALL) $${size}/$(WP_NAME)-$${tod}.png 		$(WP_DIR)/default-animated/$${size}/$(WP_NAME)-$${tod}.png ; \
-	    done; \
-	 #~ $(INSTALL) $${size}/$(WP_NAME)-01-day.jpg		    $(WP_DIR)/default-animated/$${size}/$(WP_NAME)-01-day.jpg ; \
-	done;
+	#~      $(INSTALL) $${size}/$(WP_NAME)-$${tod}.png 		$(WP_DIR)/default-animated/$${size}/$(WP_NAME)-$${tod}.png ; \
+	#~    done; \
+	#~ $(INSTALL) $${size}/$(WP_NAME)-01-day.jpg		    $(WP_DIR)/default-animated/$${size}/$(WP_NAME)-01-day.jpg ; \
+	#~ done;
 	$(INSTALL) $(WP_NAME).xml         		            $(WP_DIR)/default/$(WP_NAME).xml
 	$(INSTALL) gnome-backgrounds-$(WP_NAME).xml 		$(GNOME_BG_DIR)/$(WP_NAME).xml
-	$(INSTALL) $(WP_NAME)-animated.xml         		            $(WP_DIR)/default-animated/$(WP_NAME).xml
-	$(INSTALL) gnome-backgrounds-$(WP_NAME)-animated.xml 		$(GNOME_BG_DIR)/$(WP_NAME)-animated.xml
+	#~ $(INSTALL) $(WP_NAME)-animated.xml         		            $(WP_DIR)/default-animated/$(WP_NAME).xml
+	#~ $(INSTALL) gnome-backgrounds-$(WP_NAME)-animated.xml 		$(GNOME_BG_DIR)/$(WP_NAME)-animated.xml
 	$(MKDIR) $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images
 	$(INSTALL) $(WP_NAME)-metadata.desktop $(KDE_BG_DIR)/$(WP_BIGNAME)/metadata.desktop
 	for res in 640x480 800x600 1024x768 1152x864 1200x900 1280x960 1440x1080 1600x1200 1600x1280 1920x1440 2048x1536; do \
@@ -59,8 +52,7 @@ install:
 	$(INSTALL) $(WP_NAME)-metadata.desktop	$(PLASMA_BG_DIR)/$(WP_BIGNAME)/metadata.desktop
 	$(MKDIR) $(MATE_BG_DIR)
 	$(INSTALL) mate-backgrounds-$(WP_NAME).xml 		$(MATE_BG_DIR)/$(WP_NAME).xml
-	$(INSTALL) mate-backgrounds-$(WP_NAME)-animated.xml 		$(MATE_BG_DIR)/$(WP_NAME)-animated.xml
+	#~$(INSTALL) mate-backgrounds-$(WP_NAME)-animated.xml 		$(MATE_BG_DIR)/$(WP_NAME)-animated.xml
 	$(MKDIR) $(XFCE_BG_DIR)
-	$(LN_S) ../../backgrounds/$(WP_NAME)/default/wide/$(WP_NAME).png \
+	$(LN_S) ../../backgrounds/$(WP_NAME)/default/$(WP_NAME).png \
 			$(XFCE_BG_DIR)/$(WP_NAME).png
-

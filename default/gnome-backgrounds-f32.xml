@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>Fedora 32 Beta Default</name>
+        <filename>/usr/share/backgrounds/f32/default/f32.png</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+</wallpapers>
