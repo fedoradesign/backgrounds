@@ -23,27 +23,27 @@ One way to test these is to install them on your system
 ```
 * then install the base
 ```bash    
-    dnf install f31-backgrounds-base-32.0.0-1.fc31.noarch.rpm
+    dnf install f32-backgrounds-base-32.0.0-1.fc31.noarch.rpm
 ```
 * finally install backgrounds for your desktop, for example for KDE 
 ```bash
-    dnf install f31-backgrounds-kde-32.0.0-1.fc31.noarch.rpm
+    dnf install f32-backgrounds-kde-32.0.0-1.fc31.noarch.rpm
 ```
 
 The directory should also contain the following rpms
 
-   * f32-backgrounds-32.0.0-1.fc31.noarch.rpm              
-   * f31-backgrounds-extras-gnome-32.0.0-1.fc31.noarch.rpm  
-   * f31-backgrounds-gnome-32.0.0-1.fc31.noarch.rpm
-   * f31-backgrounds-animated-32.0.0-1.fc31.noarch.rpm     
-   * f31-backgrounds-extras-kde-32.0.0-1.fc31.noarch.rpm    
-   * f31-backgrounds-kde-32.0.0-1.fc31.noarch.rpm
-   * f31-backgrounds-base-32.0.0-1.fc31.noarch.rpm         
-   * f31-backgrounds-extras-mate-32.0.0-1.fc31.noarch.rpm   
-   * f31-backgrounds-mate-32.0.0-1.fc31.noarch.rpm
-   * f31-backgrounds-extras-base-32.0.0-1.fc31.noarch.rpm  
-   * f31-backgrounds-extras-xfce-32.0.0-1.fc31.noarch.rpm   
-   * f31-backgrounds-xfce-32.0.0-1.fc31.noarch.rpm
+   * f32-backgrounds-32.0.0-1.fc31.noarch.rpm
+   * f32-backgrounds-extras-gnome-32.0.0-1.fc31.noarch.rpm
+   * f32-backgrounds-gnome-32.0.0-1.fc31.noarch.rpm
+   * f32-backgrounds-animated-32.0.0-1.fc31.noarch.rpm
+   * f32-backgrounds-extras-kde-32.0.0-1.fc31.noarch.rpm
+   * f32-backgrounds-kde-32.0.0-1.fc31.noarch.rpm
+   * f32-backgrounds-base-32.0.0-1.fc31.noarch.rpm
+   * f32-backgrounds-extras-mate-32.0.0-1.fc31.noarch.rpm
+   * f32-backgrounds-mate-32.0.0-1.fc31.noarch.rpm
+   * f32-backgrounds-extras-base-32.0.0-1.fc31.noarch.rpm
+   * f32-backgrounds-extras-xfce-32.0.0-1.fc31.noarch.rpm
+   * f32-backgrounds-xfce-32.0.0-1.fc31.noarch.rpm
 
 * You can then change the wallpaper, for example on KDE, right click on the desktop and a menu should appear. Click on the menu and choose *Configure Desktop* then select the icon *Wallpaper* and choose one of the newly installed wallpers.
    
