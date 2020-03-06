@@ -7,18 +7,8 @@
     <minute>00</minute>
     <second>00</second>
   </starttime>
-<static>
-<duration>10000000000.0</duration>
-<file>
-	<!-- Wide 16:9 -->
-	<size width="1920" height="1080">/usr/share/backgrounds/f32/default/tv-wide/f32.png</size>
-	<!-- Wide 16:10 -->
-	<size width="1920" height="1200">/usr/share/backgrounds/f32/default/wide/f32.png</size>
-	<!-- Standard 4:3 -->
-	<size width="2048" height="1536">/usr/share/backgrounds/f32/default/standard/f32.png</size>
-	<!-- Normalish 5:4 -->
-	<size width="1280" height="1024">/usr/share/backgrounds/f32/default/normalish/f32.png</size>
-</file>
-</static>
-
+  <static>
+    <duration>10000000000.0</duration>
+    <file>/usr/share/backgrounds/f32/default/f32.png</file>
+  </static>
 </background>
