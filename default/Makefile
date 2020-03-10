@@ -33,19 +33,19 @@ install:
 	$(MKDIR) $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images
 	$(INSTALL) $(WP_NAME)-metadata.desktop $(KDE_BG_DIR)/$(WP_BIGNAME)/metadata.desktop
 	for res in 640x480 800x600 1024x768 1152x864 1200x900 1280x960 1440x1080 1600x1200 1600x1280 1920x1440 2048x1536; do \
-	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/standard/$(WP_NAME).png \
+	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/$(WP_NAME).png \
 	          $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images/$${res}.png ; \
 	done;
 	for res in 1280x1024 ; do \
-	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/normalish/$(WP_NAME).png \
+	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/$(WP_NAME).png \
 	          $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images/$${res}.png ; \
 	done;
 	for res in 800x480 1152x720 1280x768 1280x800 1440x900 1680x1050 1920x1200 ; do \
-	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/wide/$(WP_NAME).png \
+	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/$(WP_NAME).png \
 	          $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images/$${res}.png ; \
 	done;
 	for res in 1024x600 1280x720 1366x768 1920x1080 ; do \
-	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/tv-wide/$(WP_NAME).png \
+	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/$(WP_NAME).png \
 	          $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images/$${res}.png ; \
 	done;
 	$(MKDIR) $(PLASMA_BG_DIR)/$(WP_BIGNAME)
