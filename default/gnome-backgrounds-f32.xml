@@ -3,7 +3,7 @@
 <wallpapers>
     <wallpaper deleted="false">
         <name>Fedora 32 Beta Default</name>
-        <filename>/usr/share/backgrounds/f32/default/f32.png</filename>
+        <filename>/usr/share/backgrounds/f32/default/f32.xml</filename>
         <options>zoom</options>
         <shade_type>solid</shade_type>
         <pcolor>#3c6eb4</pcolor>
