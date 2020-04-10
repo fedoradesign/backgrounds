@@ -3,13 +3,13 @@
 %global bgname %(t="%{Bg_Name}";echo ${t,,})
 
 # Enable Animation
-%global with_animated 0
+%global with_animated 1
 
 # Enable Extras
 %global with_extras 0
 
 Name:		%{bgname}-backgrounds
-Version:	%{relnum}.0.0
+Version:	%{relnum}.1.0
 Release:	1%{?dist}
 Summary:	Fedora %{relnum} default desktop background
 
@@ -59,16 +59,16 @@ Supplements:	%{name}-animated = %{version}-%{release}
 
 %description    kde
 This package contains KDE desktop wallpaper for the Fedora %{relnum}
-default them
+default theme
 
 %package	gnome
-Summary:	Fedora %{relnum} default wallpaper for Gnome and Cinnamon
+Summary:	Fedora %{relnum} default wallpaper for GNOME and Cinnamon
 
 Requires:	%{name}-base = %{version}-%{release}
 Supplements:	%{name}-animated = %{version}-%{release}
 
 %description	gnome
-This package contains Gnome/Cinnamon desktop wallpaper for the
+This package contains GNOME/Cinnamon desktop wallpaper for the
 Fedora %{relnum} default theme.
 
 %package	mate
@@ -101,12 +101,12 @@ This package contains base images for F%{relnum} supplemental
 wallpapers.
 
 %package	extras-gnome
-Summary:	Extra F%{relnum} Wallpapers for Gnome and Cinnamon
+Summary:	Extra F%{relnum} Wallpapers for GNOME and Cinnamon
 
 Requires:	%{name}-extras-base = %{version}-%{release}
 
 %description	extras-gnome
-This package contains F%{relnum} supplemental wallpapers for Gnome
+This package contains F%{relnum} supplemental wallpapers for GNOME
 and Cinnamon
 
 %package	extras-mate
@@ -123,7 +123,7 @@ Summary:	Extra F%{relnum} Wallpapers for KDE
 Requires:	%{name}-extras-base = %{version}-%{release}
 
 %description	extras-kde
-This package contains F%{relnum} supplemental wallpapers for Gnome
+This package contains F%{relnum} supplemental wallpapers for KDE
 
 %package	extras-xfce
 Summary:	Extra F%{relnum} Wallpapers for XFCE
@@ -153,14 +153,11 @@ This package contains F%{relnum} supplemental wallpapers for XFCE
 %license CC-BY-SA-4.0 Attribution
 %dir %{_datadir}/backgrounds/%{bgname}
 %dir %{_datadir}/backgrounds/%{bgname}/default
-%{_datadir}/backgrounds/%{bgname}/default
-%{_datadir}/backgrounds/%{bgname}/default/%{bgname}.xml
-
+%{_datadir}/backgrounds/%{bgname}/default/%{bgname}.*
 %if %{with_animated}
 %files animated
-%dir %{_datadir}/backgrounds/%{bgname}/default-animated
-%{_datadir}/backgrounds/%{bgname}/default-animated
-%{_datadir}/backgrounds/%{bgname}/default-animated/%{bgname}.xml
+%{_datadir}/backgrounds/%{bgname}/default/%{bgname}-animated.xml
+%{_datadir}/backgrounds/%{bgname}/default/%{bgname}-*.png
 %endif
 
 %files kde
@@ -177,6 +174,7 @@ This package contains F%{relnum} supplemental wallpapers for XFCE
 %dir %{_datadir}/gnome-background-properties/
 
 %files mate
+%{_datadir}/backgrounds/mate/default.xml
 %{_datadir}/mate-background-properties/%{bgname}.xml
 %if %{with_animated}
 %{_datadir}/mate-background-properties/%{bgname}-animated.xml
@@ -184,7 +182,7 @@ This package contains F%{relnum} supplemental wallpapers for XFCE
 %dir %{_datadir}/mate-background-properties/
 
 %files xfce
-%{_datadir}/xfce4/backdrops/%{bgname}.png
+%{_datadir}/xfce4/backdrops/%{bgname}*.png
 %dir %{_datadir}/xfce4/
 %dir %{_datadir}/xfce4/backdrops/
 

@@ -1,5 +1,5 @@
 SUBDIRS = default
-VERSION = 32.0.0
+VERSION = 32.1.0
 NAME =  f32-backgrounds-$(VERSION)
 
 all:
