@@ -1,14 +1,15 @@
 <background>
   <starttime>
-    <year>2019</year>
-    <month>10</month>
-    <day>22</day>
-    <hour>00</hour>
+    <year>2020</year>
+    <month>04</month>
+    <day>21</day>
+    <hour>07</hour>
     <minute>00</minute>
     <second>00</second>
   </starttime>
-  <static>
-    <duration>10000000000.0</duration>
-    <file>/usr/share/backgrounds/f32/default/f32.png</file>
-  </static>
+<static>
+<duration>10000000000.0</duration>
+<file>/usr/share/backgrounds/f32/default/f32.png</file>
+</static>
+
 </background>
