@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>Fedora 32 Animated</name>
+        <filename>/usr/share/backgrounds/f32/default/f32-animated.xml</filename>
+        <options>stretched</options>
+    </wallpaper>
+</wallpapers>
