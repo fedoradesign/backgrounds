@@ -51,7 +51,7 @@
 <!-- It's 11 PM, we're showing the night till 5 AM. -->
 <static>
 <duration>21600.0</duration>
-<file>/usr/share/backgrounds/f32/default/f32-04-night.png</file>
+<file>/usr/share/backgrounds/f32/default/f32-04-twilight.png</file>
 </static>
 
 <!-- It's 5 AM, and we're starting to transition to dawn. Transition completes at 7 AM. -->
