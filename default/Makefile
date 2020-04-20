@@ -1,6 +1,7 @@
 WP_NAME=f32
 WP_BIGNAME=F32
 WP_DIR=$(DESTDIR)/usr/share/backgrounds/$(WP_NAME)
+WP_DIR_LN=/usr/share/backgrounds/$(WP_NAME)
 GNOME_BG_DIR=$(DESTDIR)/usr/share/gnome-background-properties
 KDE_BG_DIR=$(DESTDIR)/usr/share/wallpapers
 MATE_BG_DIR=$(DESTDIR)/usr/share/mate-background-properties
@@ -25,38 +26,29 @@ install:
 	   $(INSTALL) $(WP_NAME)-$${tod}.png	$(WP_DIR)/default/$(WP_NAME)-$${tod}.png ; \
 	done; 
 	$(CP) $(WP_DIR)/default/$(WP_NAME)-02-day.png	$(WP_DIR)/default/$(WP_NAME).png 
-	$(INSTALL) $(WP_NAME).xml  $(WP_DIR)/default/$(WP_NAME).xml
 	$(INSTALL) gnome-backgrounds-$(WP_NAME).xml	$(GNOME_BG_DIR)/$(WP_NAME).xml
 	$(INSTALL) $(WP_NAME)-animated.xml     $(WP_DIR)/default/$(WP_NAME)-animated.xml
-	$(INSTALL) gnome-backgrounds-$(WP_NAME)-animated.xml 		$(GNOME_BG_DIR)/$(WP_NAME)-animated.xml
+	$(LN_S) ../default/$(WP_NAME)-animated.xml $(WP_DIR)/default/$(WP_NAME).xml
+	$(INSTALL) gnome-backgrounds-$(WP_NAME)-animated.xml  $(GNOME_BG_DIR)/$(WP_NAME)-animated.xml
 	
 	#~ KDE and Plasma background
 	$(MKDIR) $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images
 	$(INSTALL) $(WP_NAME)-metadata.desktop $(KDE_BG_DIR)/$(WP_BIGNAME)/metadata.desktop
-	for res in 640x480 800x600 1024x768 1152x864 1200x900 1280x960 1440x1080 1600x1200 1600x1280 1920x1440 2048x1536; do \
+	for res in 1280x1024 \
+		     640x480 800x600 1024x768 1152x864 1200x900 1280x960 1440x1080 1600x1200 1600x1280 1920x1440 2048x1536 \
+		     800x480 1024x600 1152x720 1280x720 1280x768 1280x800 1366x768 1440x900 1680x1050 1920x1080 1920x1200 1920x1280 \
+		     2160x1440 2304x1440 2560x1440 2560x1600 2960x1440 3000x2000 3200x1800  3440x1440 3840x2160; do \
 	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/$(WP_NAME).png \
 	          $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images/$${res}.png ; \
-	done;
-	for res in 1280x1024 ; do \
-	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/$(WP_NAME).png \
-	          $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images/$${res}.png ; \
-	done;
-	for res in 800x480 1152x720 1280x768 1280x800 1440x900 1680x1050 1920x1200 ; do \
-	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/$(WP_NAME).png \
-	          $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images/$${res}.png ; \
-	done;
-	for res in 1024x600 1280x720 1366x768 1920x1080 ; do \
-	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/$(WP_NAME).png \
-	          $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images/$${res}.png ; \
-	done;
+	done; \
 	$(MKDIR) $(PLASMA_BG_DIR)/$(WP_BIGNAME)
 	$(INSTALL) $(WP_NAME)-metadata.desktop	$(PLASMA_BG_DIR)/$(WP_BIGNAME)/metadata.desktop
 	
 	#~ MATE background
 	$(MKDIR) $(MATE_BG_DIR)
 	$(MKDIR) $(MATE_BG_DEFAULT)
-	$(INSTALL) mate-backgrounds-$(WP_NAME).xml 		$(MATE_BG_DIR)/$(WP_NAME).xml
-	$(CP)  $(WP_DIR)/default/$(WP_NAME).xml $(MATE_BG_DEFAULT)/default.xml
+	$(INSTALL) mate-backgrounds-$(WP_NAME).xml $(MATE_BG_DIR)/$(WP_NAME).xml
+	$(CP)  $(WP_DIR)/default/$(WP_NAME)-animated.xml $(MATE_BG_DEFAULT)/default.xml
 	$(INSTALL) mate-backgrounds-$(WP_NAME)-animated.xml 		$(MATE_BG_DIR)/$(WP_NAME)-animated.xml
 	
 	#~ XFCE background
