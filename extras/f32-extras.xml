@@ -1,0 +1,16 @@
+<background>
+  <starttime>
+    <year>2019</year>
+    <month>04</month>
+    <day>30</day>
+    <hour>00</hour>
+    <minute>00</minute>
+    <second>00</second>
+  </starttime>
+
+  <static>
+    <duration>1800.0</duration>
+    <file>/usr/share/backgrounds/f32/extras/dark-blue.png</file>
+  </static>
+
+</background>
