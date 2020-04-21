@@ -6,10 +6,10 @@
 %global with_animated 1
 
 # Enable Extras
-%global with_extras 0
+%global with_extras 1
 
 Name:		%{bgname}-backgrounds
-Version:	%{relnum}.1.0
+Version:	%{relnum}.1.3
 Release:	1%{?dist}
 Summary:	Fedora %{relnum} default desktop background
 
@@ -55,7 +55,6 @@ Summary:	Fedora %{relnum} default wallpaper for KDE
 
 Requires:	%{name}-base = %{version}-%{release}
 Requires:	kde-filesystem
-Supplements:	%{name}-animated = %{version}-%{release}
 
 %description    kde
 This package contains KDE desktop wallpaper for the Fedora %{relnum}
@@ -65,7 +64,7 @@ default theme
 Summary:	Fedora %{relnum} default wallpaper for GNOME and Cinnamon
 
 Requires:	%{name}-base = %{version}-%{release}
-Supplements:	%{name}-animated = %{version}-%{release}
+Recommends:	%{name}-animated = %{version}-%{release}
 
 %description	gnome
 This package contains GNOME/Cinnamon desktop wallpaper for the
@@ -75,7 +74,7 @@ Fedora %{relnum} default theme.
 Summary:	Fedora %{relnum} default wallpaper for Mate
 
 Requires:	%{name}-base = %{version}-%{release}
-Supplements:	%{name}-animated = %{version}-%{release}
+Recommends:	%{name}-animated = %{version}-%{release}
 
 %description	mate
 This package contains Mate desktop wallpaper for the Fedora %{relnum}
@@ -154,6 +153,7 @@ This package contains F%{relnum} supplemental wallpapers for XFCE
 %dir %{_datadir}/backgrounds/%{bgname}
 %dir %{_datadir}/backgrounds/%{bgname}/default
 %{_datadir}/backgrounds/%{bgname}/default/%{bgname}.*
+%{_datadir}/backgrounds/%{bgname}/default/%{bgname}-static.xml
 %if %{with_animated}
 %files animated
 %{_datadir}/backgrounds/%{bgname}/default/%{bgname}-animated.xml
@@ -188,7 +188,7 @@ This package contains F%{relnum} supplemental wallpapers for XFCE
 
 %if %{with_extras}
 %files extras-base
-%license CC-BY-SA-4.0 CC-BY-4.0 CC0-1.0 Attribution-Extras
+%license CC-BY-SA-4.0 Attribution-Extras
 %{_datadir}/backgrounds/%{bgname}/extras/
 
 %files extras-gnome
@@ -205,3 +205,7 @@ This package contains F%{relnum} supplemental wallpapers for XFCE
 %endif
 
 %changelog
+* Wed Mar 04 2020 Luya Tshimbalanga <luya@fedoraproject.org> - 32.1.0-1
+- Initial release for Fedora 32
+- Fix spelling of GNOME
+

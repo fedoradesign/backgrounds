@@ -25,10 +25,12 @@ install:
 	for tod in 01-dawn 02-day 03-dusk 04-twilight; do \
 	   $(INSTALL) $(WP_NAME)-$${tod}.png	$(WP_DIR)/default/$(WP_NAME)-$${tod}.png ; \
 	done; 
+	for style in animated static; do \
+		$(INSTALL) $(WP_NAME)-$${style}.xml     $(WP_DIR)/default/$(WP_NAME)-$${style}.xml ; \
+	done;
 	$(CP) $(WP_DIR)/default/$(WP_NAME)-02-day.png	$(WP_DIR)/default/$(WP_NAME).png 
 	$(INSTALL) gnome-backgrounds-$(WP_NAME).xml	$(GNOME_BG_DIR)/$(WP_NAME).xml
-	$(INSTALL) $(WP_NAME)-animated.xml     $(WP_DIR)/default/$(WP_NAME)-animated.xml
-	$(LN_S) ../default/$(WP_NAME)-animated.xml $(WP_DIR)/default/$(WP_NAME).xml
+	$(LN_S) ../default/$(WP_NAME)-static.xml $(WP_DIR)/default/$(WP_NAME).xml
 	$(INSTALL) gnome-backgrounds-$(WP_NAME)-animated.xml  $(GNOME_BG_DIR)/$(WP_NAME)-animated.xml
 	
 	#~ KDE and Plasma background
@@ -48,8 +50,8 @@ install:
 	$(MKDIR) $(MATE_BG_DIR)
 	$(MKDIR) $(MATE_BG_DEFAULT)
 	$(INSTALL) mate-backgrounds-$(WP_NAME).xml $(MATE_BG_DIR)/$(WP_NAME).xml
-	$(CP)  $(WP_DIR)/default/$(WP_NAME)-animated.xml $(MATE_BG_DEFAULT)/default.xml
-	$(INSTALL) mate-backgrounds-$(WP_NAME)-animated.xml 		$(MATE_BG_DIR)/$(WP_NAME)-animated.xml
+	$(LN_S)  ../default/$(WP_NAME)-static.xml $(MATE_BG_DEFAULT)/default.xml
+	$(INSTALL) mate-backgrounds-$(WP_NAME)-animated.xml 	$(MATE_BG_DIR)/$(WP_NAME)-animated.xml
 	
 	#~ XFCE background
 	$(MKDIR) $(XFCE_BG_DIR)

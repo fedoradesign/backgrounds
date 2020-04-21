@@ -4,6 +4,6 @@
     <wallpaper deleted="false">
         <name>Fedora 32 Animated</name>
         <filename>/usr/share/backgrounds/f32/default/f32-animated.xml</filename>
-        <options>stretched</options>
+        <options>scaled</options>
     </wallpaper>
 </wallpapers>
