@@ -40,7 +40,7 @@ install:
 		     640x480 800x600 1024x768 1152x864 1200x900 1280x960 1440x1080 1600x1200 1600x1280 1920x1440 2048x1536 \
 		     800x480 1024x600 1152x720 1280x720 1280x768 1280x800 1366x768 1440x900 1680x1050 1920x1080 1920x1200 1920x1280 \
 		     2160x1440 2304x1440 2560x1440 2560x1600 2960x1440 3000x2000 3200x1800  3440x1440 3840x2160; do \
-	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/$(WP_NAME).png \
+	  $(LN_S) ../../backgrounds/$(WP_NAME)/default/$(WP_NAME).png \
 	          $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images/$${res}.png ; \
 	done; \
 	$(MKDIR) $(PLASMA_BG_DIR)/$(WP_BIGNAME)
@@ -50,13 +50,13 @@ install:
 	$(MKDIR) $(MATE_BG_DIR)
 	$(MKDIR) $(MATE_BG_DEFAULT)
 	$(INSTALL) mate-backgrounds-$(WP_NAME).xml $(MATE_BG_DIR)/$(WP_NAME).xml
-	$(LN_S)  ../default/$(WP_NAME)-static.xml $(MATE_BG_DEFAULT)/default.xml
+	$(LN_S)  ../../backgrounds/$(WP_NAME)/default/$(WP_NAME)-static.xml $(MATE_BG_DEFAULT)/default.xml
 	$(INSTALL) mate-backgrounds-$(WP_NAME)-animated.xml 	$(MATE_BG_DIR)/$(WP_NAME)-animated.xml
 	
 	#~ XFCE background
 	$(MKDIR) $(XFCE_BG_DIR)
-	$(CP) $(WP_DIR)/default/$(WP_NAME)-02-day.png \
+	$(LN_S) ../../backgrounds/$(WP_NAME)/default/$(WP_NAME)-02-day.png \
 			$(XFCE_BG_DIR)/$(WP_NAME).png
 	for tod in 01-dawn 03-dusk 04-twilight; do \
-	   $(CP) $(WP_DIR)/default/$(WP_NAME)-$${tod}.png $(XFCE_BG_DIR)/$(WP_NAME)-$${tod}.png; \
+	   $(LN_S) ../../backgrounds/$(WP_NAME)/default/$(WP_NAME)-$${tod}.png $(XFCE_BG_DIR)/$(WP_NAME)-$${tod}.png; \
 	done;
