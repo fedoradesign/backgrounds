@@ -1,5 +1,5 @@
-SUBDIRS = default
-VERSION = 32.1.0
+SUBDIRS = default extras
+VERSION = 32.1.4
 NAME =  f32-backgrounds-$(VERSION)
 
 all:
@@ -18,10 +18,10 @@ dist:
 #	cp -a CC-BY-4.0 $(NAME)
 #	cp -a CC0-1.0 $(NAME)
 	cp -a Attribution $(NAME)
-#	cp -a Attribution-Extras $(NAME)
+	cp -a Attribution-Extras $(NAME)
 	cp -a Makefile $(NAME)
 	cp -a default $(NAME)
-#	cp -a extras $(NAME)
+	cp -a extras $(NAME)
 	tar -c --xz -f $(NAME).tar.xz $(NAME)
 	rm -rf $(NAME)
 

@@ -4,17 +4,13 @@
     <wallpaper deleted="false">
         <name>F32 Supplemental Wallpapers Slideshow</name>
         <filename>/usr/share/backgrounds/f32/extras/f32-extras.xml</filename>
-        <options>zoom</options>
+        <options>scaled</options>
     </wallpaper>
 
     <wallpaper deleted="false">
         <name>Dark Blue (F32 Supplemental)</name>
         <filename>/usr/share/backgrounds/f32/extras/dark-blue.png</filename>
-        <options>zoom</options>
-
-        <!-- author>Fedora Design Team</author>
-        <email>design-team@lists.fedoraproject.org</email>
-        <license>CC-BY-SA 4.0</license -->
+        <options>scaled</options>
     </wallpaper>
 
 </wallpapers>
