@@ -9,7 +9,7 @@
 %global with_extras 1
 
 Name:		%{bgname}-backgrounds
-Version:	%{relnum}.1.3
+Version:	%{relnum}.1.4
 Release:	1%{?dist}
 Summary:	Fedora %{relnum} default desktop background
 
@@ -182,7 +182,10 @@ This package contains F%{relnum} supplemental wallpapers for XFCE
 %dir %{_datadir}/mate-background-properties/
 
 %files xfce
-%{_datadir}/xfce4/backdrops/%{bgname}*.png
+%{_datadir}/xfce4/backdrops/%{bgname}.png
+%if %{with_animated}
+%{_datadir}/xfce4/backdrops/%{bgname}-0*.png
+%endif
 %dir %{_datadir}/xfce4/
 %dir %{_datadir}/xfce4/backdrops/
 
