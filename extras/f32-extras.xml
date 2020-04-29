@@ -10,7 +10,82 @@
 
   <static>
     <duration>1800.0</duration>
-    <file>/usr/share/backgrounds/f32/extras/dark-blue.png</file>
+    <file>/usr/share/backgrounds/f32/extras/scituate-lighthouse.png</file>
+  </static>
+
+  <static>
+    <duration>1800.0</duration>
+    <file>/usr/share/backgrounds/f32/extras/groyne-lighthouse-before-dawn.jpg</file>
+  </static>
+
+  <static>
+    <duration>1800.0</duration>
+    <file>/usr/share/backgrounds/f32/extras/afternoon-at-mount-osmond.png</file>
+  </static>
+
+  <static>
+    <duration>1800.0</duration>
+    <file>/usr/share/backgrounds/f32/extras/life-is-blue-2.png</file>
+  </static>
+
+  <static>
+    <duration>1800.0</duration>
+    <file>/usr/share/backgrounds/f32/extras/the-white-mountains-nh.png</file>
+  </static>
+
+  <static>
+    <duration>1800.0</duration>
+    <file>/usr/share/backgrounds/f32/extras/snowfield-and-golden-hour.jpg</file>
+  </static>
+
+  <static>
+    <duration>1800.0</duration>
+    <file>/usr/share/backgrounds/f32/extras/night-sky.jpg</file>
+  </static>
+
+  <static>
+    <duration>1800.0</duration>
+    <file>/usr/share/backgrounds/f32/extras/isarfrost.png</file>
+  </static>
+
+  <static>
+    <duration>1800.0</duration>
+    <file>/usr/share/backgrounds/f32/extras/reflections.jpg</file>
+  </static>
+
+  <static>
+    <duration>1800.0</duration>
+    <file>/usr/share/backgrounds/f32/extras/ambosli-sunset.jpeg</file>
+  </static>
+
+  <static>
+    <duration>1800.0</duration>
+    <file>/usr/share/backgrounds/f32/extras/gardens-on-the-bay-in-singapore.jpeg</file>
+  </static>
+
+  <static>
+    <duration>1800.0</duration>
+    <file>/usr/share/backgrounds/f32/extras/nature.jpg</file>
+  </static>
+
+  <static>
+    <duration>1800.0</duration>
+    <file>/usr/share/backgrounds/f32/extras/sloped-earth.jpg</file>
+  </static>
+
+  <static>
+    <duration>1800.0</duration>
+    <file>/usr/share/backgrounds/f32/extras/ocean-approach.jpg</file>
+  </static>
+
+  <static>
+    <duration>1800.0</duration>
+    <file>/usr/share/backgrounds/f32/extras/blue-bell.jpg</file>
+  </static>
+
+  <static>
+    <duration>1800.0</duration>
+    <file>/usr/share/backgrounds/f32/extras/old-wood.png</file>
   </static>
 
 </background>

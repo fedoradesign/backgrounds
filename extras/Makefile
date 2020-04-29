@@ -7,8 +7,23 @@ MKDIR=/bin/mkdir -p
 INSTALL=/usr/bin/install -p -m644 -D
 LN_S=/bin/ln -s
 
-THEMES_JPG=
-THEMES_PNG=dark-blue
+THEMES_JPG=groyne-lighthouse-before-dawn\
+	snowfield-and-golden-hour\
+	night-sky\
+	reflections\
+	ambosli-sunset\
+	gardens-on-the-bay-in-singapore\
+	nature\
+	sloped-earth\
+	ocean-approach\
+	blue-bell
+THEMES_PNG=dark-blue\
+	scituate-lighthouse\
+	afternoon-at-mount-osmond\
+	life-is-blue-2\
+	the-white-mountains-nh\
+	isarfrost\
+	old-wood
 
 all:
 
@@ -31,7 +46,7 @@ install:
 	    $(LN_S) ../../../../backgrounds/f32/extras/$${theme}.jpg \
 	            $(KDE_BG_DIR)/F32_$${theme}/contents/images/$${res}.jpg ; \
 	  done; \
-	  $(LN_S) ../../../backgrounds/f32/extras/$${theme}.jpg \
+	  $(LN_S) ../backgrounds/f32/extras/$${theme}.jpg \
 			$(XFCE_BG_DIR)/f32-$${theme}.jpg ;\
 	done;
 	for theme in $(THEMES_PNG) ; do \
@@ -45,7 +60,7 @@ install:
 	    $(LN_S) ../../../../backgrounds/f32/extras/$${theme}.png \
 	            $(KDE_BG_DIR)/F32_$${theme}/contents/images/$${res}.png ; \
 	  done; \
-	  $(LN_S) ../../backgrounds/f32/extras/$${theme}.png \
+	  $(LN_S) ../backgrounds/f32/extras/$${theme}.png \
 			$(XFCE_BG_DIR)/f32-$${theme}.png ;\
 	done;
 
