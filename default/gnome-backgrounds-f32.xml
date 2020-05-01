@@ -4,7 +4,7 @@
      <wallpaper deleted="false">
         <name>Fedora 32 Dawn</name>
         <filename>/usr/share/backgrounds/f32/default/f32-01-dawn.png</filename>
-        <options>scaled</options>
+        <options>zoom</options>
         <shade_type>solid</shade_type>
         <pcolor>#3c6eb4</pcolor>
         <scolor>#294172</scolor>
@@ -13,7 +13,7 @@
     <wallpaper deleted="false">
         <name>Fedora 32 Day Default</name>
         <filename>/usr/share/backgrounds/f32/default/f32-02-day.png</filename>
-        <options>scaled</options>
+        <options>zoom</options>
         <shade_type>solid</shade_type>
         <pcolor>#3c6eb4</pcolor>
         <scolor>#294172</scolor>
@@ -22,7 +22,7 @@
     <wallpaper deleted="false">
         <name>Fedora 32 Dusk</name>
         <filename>/usr/share/backgrounds/f32/default/f32-03-dusk.png</filename>
-        <options>scaled</options>
+        <options>zoom</options>
         <shade_type>solid</shade_type>
         <pcolor>#3c6eb4</pcolor>
         <scolor>#294172</scolor>
@@ -31,7 +31,7 @@
     <wallpaper deleted="false">
         <name>Fedora 32 Twilight</name>
         <filename>/usr/share/backgrounds/f32/default/f32-04-twilight.png</filename>
-        <options>scaled</options>
+        <options>zoom</options>
         <shade_type>solid</shade_type>
         <pcolor>#3c6eb4</pcolor>
         <scolor>#294172</scolor>
