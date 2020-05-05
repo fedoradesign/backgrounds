@@ -29,8 +29,8 @@ while (line = file.gets)
   theme[:fas] = authors[theme[:author]]
   theme[:mail] = "#{theme[:fas]} AT fedoraproject DOT org"
   theme[:licence] = tmp[2]
-  if (theme[:licence] == "Free Art")
-    licence = theme[:licence].sub('Free Art','licence/lal').split(' ').join('/').downcase
+  if (theme[:licence] == "Free Art 1.3")
+    licence = theme[:licence].sub('Free Art 1.3','licence/lal').split(' ').join('/').downcase
     url = "http://artlibre.org/#{licence}/en/"
   else
     licence = theme[:licence].sub('CC0','publicdomain/zero').sub('CC-','licences/').split(' ').join('/').downcase
@@ -214,7 +214,7 @@ EOF
 themes_jpg = []
 themes_png = []
 themes.each do |theme|
-  if theme[:ext] == "jpg"
+  if theme[:ext] == "jpg" || theme[:ext] == "jpeg"
     themes_jpg += [theme[:name].downcase.gsub(' ','-')]
   else
     themes_png += [theme[:name].downcase.gsub(' ','-')]

@@ -8,8 +8,98 @@
     </wallpaper>
 
     <wallpaper deleted="false">
-        <name>Dark Blue (F32 Supplemental)</name>
-        <filename>/usr/share/backgrounds/f32/extras/dark-blue.png</filename>
+        <name>Scituate Lighthouse (F32 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f32/extras/scituate-lighthouse.png</filename>
+        <options>scaled</options>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Groyne Lighthouse Before Dawn (F32 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f32/extras/groyne-lighthouse-before-dawn.jpg</filename>
+        <options>scaled</options>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Afternoon at Mount Osmond (F32 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f32/extras/afternoon-at-mount-osmond.png</filename>
+        <options>scaled</options>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Life is Blue 2 (F32 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f32/extras/life-is-blue-2.png</filename>
+        <options>scaled</options>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>The White Mountains NH (F32 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f32/extras/the-white-mountains-nh.png</filename>
+        <options>scaled</options>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Snowfield and Golden Hour (F32 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f32/extras/snowfield-and-golden-hour.jpg</filename>
+        <options>scaled</options>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Night Sky (F32 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f32/extras/night-sky.jpg</filename>
+        <options>scaled</options>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Isarfrost (F32 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f32/extras/isarfrost.png</filename>
+        <options>scaled</options>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Reflections (F32 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f32/extras/reflections.jpg</filename>
+        <options>scaled</options>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Ambosli Sunset (F32 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f32/extras/ambosli-sunset.jpeg</filename>
+        <options>scaled</options>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Gardens on the Bay in Singapore (F32 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f32/extras/gardens-on-the-bay-in-singapore.jpeg</filename>
+        <options>scaled</options>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Nature (F32 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f32/extras/nature.jpg</filename>
+        <options>scaled</options>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Sloped Earth (F32 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f32/extras/sloped-earth.jpg</filename>
+        <options>scaled</options>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Ocean Approach (F32 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f32/extras/ocean-approach.jpg</filename>
+        <options>scaled</options>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Blue Bell (F32 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f32/extras/blue-bell.jpg</filename>
+        <options>scaled</options>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Old Wood (F32 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f32/extras/old-wood.png</filename>
         <options>scaled</options>
     </wallpaper>
 
