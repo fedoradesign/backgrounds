@@ -6,7 +6,8 @@
         <filename>/usr/share/backgrounds/f32/default/f32-animated.xml</filename>
         <options>zoom</options>
     </wallpaper>
-         <wallpaper deleted="false">
+
+    <wallpaper deleted="false">
         <name>Fedora 32 Dawn</name>
         <filename>/usr/share/backgrounds/f32/default/f32-01-dawn.png</filename>
         <options>zoom</options>

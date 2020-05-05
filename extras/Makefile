@@ -17,8 +17,12 @@ THEMES_JPG=groyne-lighthouse-before-dawn\
 	sloped-earth\
 	ocean-approach\
 	blue-bell
+<<<<<<< HEAD
 THEMES_PNG=dark-blue\
 	scituate-lighthouse\
+=======
+THEMES_PNG=scituate-lighthouse\
+>>>>>>> 159f87289e88c7420d2bac1eada047908ce14e72
 	afternoon-at-mount-osmond\
 	life-is-blue-2\
 	the-white-mountains-nh\
@@ -46,7 +50,11 @@ install:
 	    $(LN_S) ../../../../backgrounds/f32/extras/$${theme}.jpg \
 	            $(KDE_BG_DIR)/F32_$${theme}/contents/images/$${res}.jpg ; \
 	  done; \
+<<<<<<< HEAD
 	  $(LN_S) ../backgrounds/f32/extras/$${theme}.jpg \
+=======
+	  $(LN_S) ../../backgrounds/f32/extras/$${theme}.jpg \
+>>>>>>> 159f87289e88c7420d2bac1eada047908ce14e72
 			$(XFCE_BG_DIR)/f32-$${theme}.jpg ;\
 	done;
 	for theme in $(THEMES_PNG) ; do \
