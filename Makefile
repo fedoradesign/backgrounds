@@ -1,6 +1,6 @@
 SUBDIRS = default extras
-VERSION = 32.1.4
-NAME =  f32-backgrounds-$(VERSION)
+VERSION = 33.0.0
+NAME =  f33-backgrounds-$(VERSION)
 
 all:
 	@for i in $(SUBDIRS) ; do \
@@ -15,8 +15,8 @@ install:
 dist:
 	mkdir -p $(NAME)
 	cp -a CC-BY-SA-4.0 $(NAME)
-#	cp -a CC-BY-4.0 $(NAME)
-#	cp -a CC0-1.0 $(NAME)
+	cp -a CC-BY-4.0 $(NAME)
+	cp -a CC0-1.0 $(NAME)
 	cp -a Attribution $(NAME)
 	cp -a Attribution-Extras $(NAME)
 	cp -a Makefile $(NAME)
