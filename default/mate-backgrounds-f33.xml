@@ -35,7 +35,7 @@
     </wallpaper>
 
     <wallpaper deleted="false">
-        <name>Fedora 33 Twilight</name>
+        <name>Fedora 33 Night</name>
         <filename>/usr/share/backgrounds/f33/default/f33-04-night.png</filename>
         <options>scaled</options>
         <shade_type>solid</shade_type>
