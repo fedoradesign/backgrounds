@@ -19,7 +19,7 @@ all:
 install:
 	$(MKDIR) $(WP_DIR)/default
 	#~ Base background
-	for tod in 01-dawn 02-day 03-dusk 04-twilight; do \
+	for tod in 01-dawn 02-day 03-dusk 04-night; do \
 	   $(INSTALL) $(WP_NAME)-$${tod}.png	$(WP_DIR)/default/$(WP_NAME)-$${tod}.png ; \
 	done; 
 	$(CP) $(WP_DIR)/default/$(WP_NAME)-02-day.png	$(WP_DIR)/default/$(WP_NAME).png
@@ -52,6 +52,6 @@ install:
 	$(MKDIR) $(XFCE_BG_DIR)
 	$(LN_S) ../default/$(WP_NAME)-02-day.png \
 			$(XFCE_BG_DIR)/$(WP_NAME).png
-	for tod in 01-dawn 03-dusk 04-twilight; do \
+	for tod in 01-dawn 03-dusk 04-night; do \
 	   $(LN_S) ../default/$(WP_NAME)-$${tod}.png $(XFCE_BG_DIR)/$(WP_NAME)-$${tod}.png; \
 	done;
