@@ -22,7 +22,7 @@ install:
 	for tod in 01-dawn 02-day 03-dusk 04-night; do \
 	   $(INSTALL) $(WP_NAME)-$${tod}.png	$(WP_DIR)/default/$(WP_NAME)-$${tod}.png ; \
 	done; 
-	$(CP) $(WP_DIR)/default/$(WP_NAME)-02-day.png	$(WP_DIR)/default/$(WP_NAME).png
+	$(LN_S) $(WP_DIR)/default/$(WP_NAME)-02-day.png	$(WP_DIR)/default/$(WP_NAME).png
 	$(INSTALL) $(WP_NAME).xml	$(WP_DIR)/default/$(WP_NAME).xml 
 	
 	#~ GNOME background
@@ -44,6 +44,8 @@ install:
 	
 	#~ MATE background
 	$(MKDIR) $(MATE_BG_DIR)
+	$(MKDIR) $(MATE_BG_DEFAULT)
+	$(INSTALL) $(WP_NAME)-static.xml $(MATE_BG_DEFAULT)/default.xml
 	$(INSTALL) mate-backgrounds-$(WP_NAME).xml $(MATE_BG_DIR)/$(WP_NAME).xml
 	
 	#~ XFCE background
