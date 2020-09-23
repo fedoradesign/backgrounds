@@ -44,8 +44,6 @@ install:
 	
 	#~ MATE background
 	$(MKDIR) $(MATE_BG_DIR)
-	$(MKDIR) $(MATE_BG_DEFAULT)
-	$(INSTALL) $(WP_NAME)-static.xml $(MATE_BG_DEFAULT)/default.xml
 	$(INSTALL) mate-backgrounds-$(WP_NAME).xml $(MATE_BG_DIR)/$(WP_NAME).xml
 	
 	#~ XFCE background
