@@ -1,11 +1,11 @@
 [Desktop Entry]
-Name=Dark Blue (F33 Supplemental)
+Name=Dark Blue (F34 Supplemental)
 
-X-KDE-PluginInfo-Name=Dark Blue (F33 Supplemental)
+X-KDE-PluginInfo-Name=Dark Blue (F34 Supplemental)
 X-KDE-PluginInfo-Author=Fedora Design Team
 X-KDE-PluginInfo-Email=fedora-design@lists.fedoraproject.org
-X-KDE-PluginInfo-Name=F33
-X-KDE-PluginInfo-Version=33.0
+X-KDE-PluginInfo-Name=F34
+X-KDE-PluginInfo-Version=34.0
 X-KDE-PluginInfo-Website=https://fedoraproject.org/wiki/Design
 X-KDE-PluginInfo-Category=
 X-KDE-PluginInfo-Depends=
@@ -17,7 +17,7 @@ X-Plasma-API=5.0
 FallbackTheme=default
 
 [Wallpaper]
-defaultWallpaperTheme=F33
+defaultWallpaperTheme=F34
 defaultFileSuffix=.png
 defaultWidth=1920
 defaultHeight=1200
