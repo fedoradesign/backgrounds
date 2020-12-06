@@ -48,8 +48,8 @@ install:
 	
 	#~ XFCE background
 	$(MKDIR) $(XFCE_BG_DIR)
-	$(LN_S) ../default/$(WP_NAME)-02-day.png \
+	$(LN_S) $(WP_DIR_LN)/default/$(WP_NAME)-02-day.png \
 			$(XFCE_BG_DIR)/$(WP_NAME).png
 	for tod in 01-dawn 03-dusk 04-night; do \
-	   $(LN_S) ../default/$(WP_NAME)-$${tod}.png $(XFCE_BG_DIR)/$(WP_NAME)-$${tod}.png; \
+	   $(LN_S) $(WP_DIR_LN)/default/$(WP_NAME)-$${tod}.png $(XFCE_BG_DIR)/$(WP_NAME)-$${tod}.png; \
 	done;
