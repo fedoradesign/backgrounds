@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>F34 Supplemental Wallpapers Slideshow</name>
+        <filename>/usr/share/backgrounds/f34/extras/f34-extras.xml</filename>
+        <options>scaled</options>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Dark Blue (F34 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f34/extras/dark-blue.png</filename>
+        <options>scaled</options>
+    </wallpaper>
+
+</wallpapers>

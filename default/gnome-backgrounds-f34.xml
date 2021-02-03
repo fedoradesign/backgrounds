@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>Fedora 34 Time of Day</name>
+        <filename>/usr/share/backgrounds/f34/default/f34.xml</filename>
+        <options>zoom</options>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Fedora 34 Day Default</name>
+        <filename>/usr/share/backgrounds/f34/default/f34-01-day.png</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Fedora 34 Night</name>
+        <filename>/usr/share/backgrounds/f34/default/f34-02-night.png</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+</wallpapers>
