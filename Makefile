@@ -1,5 +1,5 @@
 SUBDIRS = default extras
-VERSION = 34.0.0
+VERSION = 34.0.1
 NAME =  f34-backgrounds-$(VERSION)
 
 all:
