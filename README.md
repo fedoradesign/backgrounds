@@ -23,6 +23,7 @@ One way to test these is to install them on your system
 ```
 * then install the base
 ```bash    
+<<<<<<< HEAD
     dnf install f34-backgrounds-base-34.0.1-1.f35.noarch.rpm
 ```
 * finally install backgrounds for your desktop, for example for KDE 
