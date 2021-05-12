@@ -1,6 +1,6 @@
 SUBDIRS = default extras
-VERSION = 33.0.6
-NAME =  f33-backgrounds-$(VERSION)
+VERSION = 35.0.0
+NAME =  f35-backgrounds-$(VERSION)
 
 all:
 	@for i in $(SUBDIRS) ; do \
