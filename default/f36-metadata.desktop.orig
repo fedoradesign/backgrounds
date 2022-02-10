@@ -1,0 +1,33 @@
+[Desktop Entry]
+Name=Fedora Thirty-Five
+Comment=Fedora Plasma Theme
+
+X-KDE-PluginInfo-Author=Fedora KDE-SIG
+X-KDE-PluginInfo-Email=kde@lists.fedoraproject.org
+X-KDE-PluginInfo-Name=F35
+X-KDE-PluginInfo-Version=35.0
+X-KDE-PluginInfo-Website=http://fedoraproject.org/SIGs/KDE
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=CC-BY-SA
+X-KDE-PluginInfo-EnabledByDefault=true
+X-Plasma-API=5.0
+
+[Settings]
+FallbackTheme=default
+
+[Wallpaper]
+defaultWallpaperTheme=F35
+defaultFileSuffix=.png
+defaultWidth=1920
+defaultHeight=1200
+
+[Branding]
+homepage=http://fedoraproject.org
+
+[ContrastEffect]
+enabled=true
+contrast=0.2
+#intensity is disabled, in order to auto adjust to the chosen theme color
+#intensity=2.0
+saturation=1.7
