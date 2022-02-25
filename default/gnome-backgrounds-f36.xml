@@ -3,22 +3,14 @@
 <wallpapers>
     <wallpaper deleted="false">
         <name>Fedora 36 Time of Day</name>
-        <filename>/usr/share/backgrounds/f36/default/f36.xml</filename>
+        <filename>/usr/share/backgrounds/f36/default/f36-time.xml</filename>
         <options>zoom</options>
     </wallpaper>
 
     <wallpaper deleted="false">
-        <name>Fedora 36 Day Default</name>
+        <name>Fedora 36 Default</name>
         <filename>/usr/share/backgrounds/f36/default/f36-01-day.png</filename>
-        <options>zoom</options>
-        <shade_type>solid</shade_type>
-        <pcolor>#3c6eb4</pcolor>
-        <scolor>#294172</scolor>
-    </wallpaper>
-
-    <wallpaper deleted="false">
-        <name>Fedora 36 Night</name>
-        <filename>/usr/share/backgrounds/f36/default/f36-02-night.png</filename>
+	<filename-dark>/usr/share/backgrounds/f36/default/f36-02-night.png</filename-dark>
         <options>zoom</options>
         <shade_type>solid</shade_type>
         <pcolor>#3c6eb4</pcolor>
