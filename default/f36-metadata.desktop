@@ -1,11 +1,11 @@
 [Desktop Entry]
-Name=Fedora Thirty-Five
+Name=Fedora Thirty-Six
 Comment=Fedora Plasma Theme
 
 X-KDE-PluginInfo-Author=Fedora KDE-SIG
 X-KDE-PluginInfo-Email=kde@lists.fedoraproject.org
-X-KDE-PluginInfo-Name=F35
-X-KDE-PluginInfo-Version=35.0
+X-KDE-PluginInfo-Name=F36
+X-KDE-PluginInfo-Version=36.0
 X-KDE-PluginInfo-Website=http://fedoraproject.org/SIGs/KDE
 X-KDE-PluginInfo-Category=
 X-KDE-PluginInfo-Depends=
@@ -17,7 +17,7 @@ X-Plasma-API=5.0
 FallbackTheme=default
 
 [Wallpaper]
-defaultWallpaperTheme=F35
+defaultWallpaperTheme=F36
 defaultFileSuffix=.png
 defaultWidth=1920
 defaultHeight=1200
