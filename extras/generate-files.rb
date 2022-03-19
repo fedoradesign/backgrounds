@@ -1,9 +1,9 @@
 # dnf install rubygem-i18n html2text wget
 require "i18n"
 
-WNAME = 'f34'
-WNAME_FULL = 'F34'
-WVERSION = '34.0'
+WNAME = 'f36'
+WNAME_FULL = 'F36'
+WVERSION = '36.0'
 
 # load authors' info from prepared file
 authors = {}
@@ -105,6 +105,7 @@ wallpaper = <<-EOF
     </wallpaper>
 
 EOF
+
 f_gnome_xml.puts wallpaper
 f_mate_xml.puts wallpaper
 
@@ -247,7 +248,7 @@ install:
 	    $(LN_S) ../../../../backgrounds/#{WNAME}/extras/$${theme}.jpg \\
 	            $(KDE_BG_DIR)/#{WNAME_FULL}_$${theme}/contents/images/$${res}.jpg ; \\
 	  done; \\
-	  $(LN_S) ../backgrounds/#{WNAME}/extras/$${theme}.jpg \\
+	  $(LN_S) ../../backgrounds/#{WNAME}/extras/$${theme}.jpg \\
 			$(XFCE_BG_DIR)/#{WNAME}-$${theme}.jpg ;\\
 	done;
 	for theme in $(THEMES_PNG) ; do \\
@@ -261,7 +262,7 @@ install:
 	    $(LN_S) ../../../../backgrounds/#{WNAME}/extras/$${theme}.png \\
 	            $(KDE_BG_DIR)/#{WNAME_FULL}_$${theme}/contents/images/$${res}.png ; \\
 	  done; \\
-	  $(LN_S) ../backgrounds/#{WNAME}/extras/$${theme}.png \\
+	  $(LN_S) ../../backgrounds/#{WNAME}/extras/$${theme}.png \\
 			$(XFCE_BG_DIR)/#{WNAME}-$${theme}.png ;\\
 	done;
 
