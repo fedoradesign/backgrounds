@@ -2,7 +2,7 @@
 <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
 <wallpapers>
     <wallpaper deleted="false">
-        <name>Fedora 36 Default</name>
+        <name>Default Background</name>
         <filename>/usr/share/backgrounds/f36/default/f36-01-day.png</filename>
 	<filename-dark>/usr/share/backgrounds/f36/default/f36-02-night.png</filename-dark>
         <options>zoom</options>
@@ -12,7 +12,7 @@
     </wallpaper>
 
     <wallpaper deleted="false">
-        <name>Fedora 36 Time of Day</name>
+        <name>00 Fedora 36 Time of Day</name>
         <filename>/usr/share/backgrounds/f36/default/f36.xml</filename>
         <options>zoom</options>
     </wallpaper>
