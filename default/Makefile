@@ -31,6 +31,7 @@ install:
 	
 	#~ KDE and Plasma background
 	$(MKDIR) $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images
+	$(MKDIR) $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images_dark
 	$(INSTALL) $(WP_NAME)-metadata.desktop $(KDE_BG_DIR)/$(WP_BIGNAME)/metadata.desktop
 	for res in 1280x1024 \
 		     640x480 800x600 1024x768 1152x864 1200x900 1280x960 1440x1080 1600x1200 1600x1280 1920x1440 2048x1536 \
@@ -38,6 +39,8 @@ install:
 		     2160x1440 2304x1440 2560x1440 2560x1600 2960x1440 3000x2000 3200x1800  3440x1440 3840x2160; do \
 	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/$(WP_NAME).png \
 	          $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images/$${res}.png ; \
+	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/$(WP_NAME)-02-night.png \
+	          $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images_dark/$${res}.png ; \
 	done; \
 	$(MKDIR) $(PLASMA_BG_DIR)/$(WP_BIGNAME)
 	$(INSTALL) $(WP_NAME)-metadata.desktop	$(PLASMA_BG_DIR)/$(WP_BIGNAME)/metadata.desktop
