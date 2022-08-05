@@ -1,9 +1,9 @@
 # dnf install rubygem-i18n html2text wget
 require "i18n"
 
-WNAME = 'f36'
-WNAME_FULL = 'F36'
-WVERSION = '36.0'
+WNAME = 'f37'
+WNAME_FULL = 'F37'
+WVERSION = '37.0'
 
 # load authors' info from prepared file
 authors = {}
