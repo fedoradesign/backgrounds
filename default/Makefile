@@ -1,5 +1,5 @@
-WP_NAME=f36
-WP_BIGNAME=F36
+WP_NAME=f37
+WP_BIGNAME=F37
 WP_DIR=$(DESTDIR)/usr/share/backgrounds/$(WP_NAME)
 WP_DIR_LN=/usr/share/backgrounds/$(WP_NAME)
 GNOME_BG_DIR=$(DESTDIR)/usr/share/gnome-background-properties
@@ -41,7 +41,7 @@ install:
 	          $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images/$${res}.png ; \
 	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/$(WP_NAME)-02-night.png \
 	          $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images_dark/$${res}.png ; \
-	done; \
+	done;
 	$(MKDIR) $(PLASMA_BG_DIR)/$(WP_BIGNAME)
 	$(INSTALL) $(WP_NAME)-metadata.desktop	$(PLASMA_BG_DIR)/$(WP_BIGNAME)/metadata.desktop
 	
