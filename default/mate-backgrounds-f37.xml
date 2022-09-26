@@ -9,7 +9,7 @@
 
     <wallpaper deleted="false">
         <name>Fedora 37 Day Default</name>
-        <filename>/usr/share/backgrounds/f37/default/f37-01-day.png</filename>
+        <filename>/usr/share/backgrounds/f37/default/f37-01-day.webp</filename>
         <options>zoom</options>
         <shade_type>solid</shade_type>
         <pcolor>#3c6eb4</pcolor>
@@ -18,7 +18,7 @@
 
     <wallpaper deleted="false">
         <name>Fedora 37 Night</name>
-        <filename>/usr/share/backgrounds/f37/default/f37-02-night.png</filename>
+        <filename>/usr/share/backgrounds/f37/default/f37-01-night.webp</filename>
         <options>zoom</options>
         <shade_type>solid</shade_type>
         <pcolor>#3c6eb4</pcolor>

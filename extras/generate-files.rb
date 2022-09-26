@@ -74,9 +74,9 @@ f_slideshow_xml = File.new("#{WNAME}-extras.xml", 'w')
 f_slideshow_xml.puts <<EOF
 <background>
   <starttime>
-    <year>2020</year>
-    <month>04</month>
-    <day>30</day>
+    <year>2022</year>
+    <month>08</month>
+    <day>04</day>
     <hour>07</hour>
     <minute>00</minute>
     <second>00</second>
