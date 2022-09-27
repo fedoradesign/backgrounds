@@ -4,7 +4,7 @@
     <wallpaper deleted="false">
         <name>Fedora 37 Default</name>
         <filename>/usr/share/backgrounds/f37/default/f37-01-day.webp</filename>
-	<filename-dark>/usr/share/backgrounds/f37/default/f37-01-night.webp</filename-dark>
+        <filename-dark>/usr/share/backgrounds/f37/default/f37-01-night.webp</filename-dark>
         <options>zoom</options>
         <shade_type>solid</shade_type>
         <pcolor>#51a2da</pcolor>
