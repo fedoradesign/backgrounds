@@ -53,6 +53,6 @@ install:
 	$(MKDIR) $(XFCE_BG_DIR)
 	$(LN_S) $(WP_DIR_LN)/default/$(WP_NAME)-01-day.webp \
 			$(XFCE_BG_DIR)/$(WP_NAME).webp
-	for tod in 02-night; do \
+	for tod in 01-night; do \
 	   $(LN_S) $(WP_DIR_LN)/default/$(WP_NAME)-$${tod}.webp $(XFCE_BG_DIR)/$(WP_NAME)-$${tod}.webp; \
 	done;
