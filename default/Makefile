@@ -21,6 +21,7 @@ install:
 	#~ Base background
 	for tod in 01-day 01-night; do \
 	   $(INSTALL) $(WP_NAME)-$${tod}.webp	$(WP_DIR)/default/$(WP_NAME)-$${tod}.webp ; \
+	   $(INSTALL) $(WP_NAME)-$${tod}.png	$(WP_DIR)/default/$(WP_NAME)-$${tod}.png ; \
 	done; 
 	$(LN_S) ../default/$(WP_NAME)-01-day.webp	$(WP_DIR)/default/$(WP_NAME).webp
 	$(INSTALL) $(WP_NAME).xml	$(WP_DIR)/default/$(WP_NAME).xml 
@@ -39,7 +40,7 @@ install:
 		     2160x1440 2304x1440 2560x1440 2560x1600 2960x1440 3000x2000 3200x1800  3440x1440 3840x2160; do \
 	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/$(WP_NAME).webp \
 	          $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images/$${res}.webp ; \
-	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/$(WP_NAME)-02-night.webp \
+	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/$(WP_NAME)-01-night.webp \
 	          $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images_dark/$${res}.webp ; \
 	done;
 	$(MKDIR) $(PLASMA_BG_DIR)/$(WP_BIGNAME)
@@ -51,8 +52,7 @@ install:
 	
 	#~ XFCE background
 	$(MKDIR) $(XFCE_BG_DIR)
-	$(LN_S) $(WP_DIR_LN)/default/$(WP_NAME)-01-day.webp \
-			$(XFCE_BG_DIR)/$(WP_NAME).webp
-	for tod in 01-night; do \
-	   $(LN_S) $(WP_DIR_LN)/default/$(WP_NAME)-$${tod}.webp $(XFCE_BG_DIR)/$(WP_NAME)-$${tod}.webp; \
-	done;
+	$(LN_S) $(WP_DIR_LN)/default/$(WP_NAME)-01-day.png \
+			$(XFCE_BG_DIR)/$(WP_NAME).png
+	$(LN_S) $(WP_DIR_LN)/default/$(WP_NAME)-01-night.png \
+			$(XFCE_BG_DIR)/$(WP_NAME)-01-night.png
