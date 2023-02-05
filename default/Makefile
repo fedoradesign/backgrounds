@@ -1,5 +1,5 @@
-WP_NAME=f37
-WP_BIGNAME=F37
+WP_NAME=f38
+WP_BIGNAME=F38
 WP_DIR=$(DESTDIR)/usr/share/backgrounds/$(WP_NAME)
 WP_DIR_LN=/usr/share/backgrounds/$(WP_NAME)
 GNOME_BG_DIR=$(DESTDIR)/usr/share/gnome-background-properties
