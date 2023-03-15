@@ -3,11 +3,16 @@
 <wallpapers>
     <wallpaper deleted="false">
         <name>Fedora 38 Default</name>
-        <filename>/usr/share/backgrounds/f38/default/f38-01-day.webp</filename>
-        <filename-dark>/usr/share/backgrounds/f38/default/f38-01-night.webp</filename-dark>
+        <filename>/usr/share/backgrounds/f38/default/f38-01-day.png</filename>
+        <filename-dark>/usr/share/backgrounds/f38/default/f38-01-night.png</filename-dark>
         <options>zoom</options>
         <shade_type>solid</shade_type>
         <pcolor>#51a2da</pcolor>
         <scolor>#294172</scolor>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Fedora 38 Time of Day</name>
+        <filename>/usr/share/backgrounds/f38/default/f38.xml</filename>
+        <options>zoom</options>
     </wallpaper>
 </wallpapers>
