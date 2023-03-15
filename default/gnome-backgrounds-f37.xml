@@ -10,4 +10,10 @@
         <pcolor>#51a2da</pcolor>
         <scolor>#294172</scolor>
     </wallpaper>
+    
+    <wallpaper deleted="false">
+        <name>Fedora 37 Time of Day</name>
+        <filename>/usr/share/backgrounds/f37/default/f37.xml</filename>
+        <options>zoom</options>
+    </wallpaper>
 </wallpapers>
