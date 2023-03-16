@@ -8,8 +8,8 @@ INSTALL=/usr/bin/install -p -m644 -D
 LN_S=/bin/ln -s
 
 THEMES_JPG=
-THEMES_PNG=dark-blue\
-	light-blue
+THEMES_PNG=01-dark-blue\
+	01-light-blue
 
 all:
 

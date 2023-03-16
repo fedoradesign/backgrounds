@@ -20,10 +20,8 @@ install:
 	$(MKDIR) $(WP_DIR)/default
 	#~ Base background
 	for tod in 01-day 01-night; do \
-	   $(INSTALL) $(WP_NAME)-$${tod}.webp	$(WP_DIR)/default/$(WP_NAME)-$${tod}.webp ; \
 	   $(INSTALL) $(WP_NAME)-$${tod}.png	$(WP_DIR)/default/$(WP_NAME)-$${tod}.png ; \
 	done; 
-	$(LN_S) ../default/$(WP_NAME)-01-day.webp	$(WP_DIR)/default/$(WP_NAME).webp
 	$(INSTALL) $(WP_NAME).xml	$(WP_DIR)/default/$(WP_NAME).xml 
 	
 	#~ GNOME background
@@ -38,10 +36,10 @@ install:
 		     640x480 800x600 1024x768 1152x864 1200x900 1280x960 1440x1080 1600x1200 1600x1280 1920x1440 2048x1536 \
 		     800x480 1024x600 1152x720 1280x720 1280x768 1280x800 1366x768 1440x900 1680x1050 1920x1080 1920x1200 1920x1280 \
 		     2160x1440 2304x1440 2560x1440 2560x1600 2960x1440 3000x2000 3200x1800  3440x1440 3840x2160; do \
-	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/$(WP_NAME).webp \
-	          $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images/$${res}.webp ; \
-	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/$(WP_NAME)-01-night.webp \
-	          $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images_dark/$${res}.webp ; \
+	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/$(WP_NAME)-01-day.png \
+	          $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images/$${res}.png ; \
+	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/$(WP_NAME)-01-night.png \
+	          $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images_dark/$${res}.png ; \
 	done;
 	$(MKDIR) $(PLASMA_BG_DIR)/$(WP_BIGNAME)
 	$(INSTALL) $(WP_NAME)-metadata.desktop	$(PLASMA_BG_DIR)/$(WP_BIGNAME)/metadata.desktop
