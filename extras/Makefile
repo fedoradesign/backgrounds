@@ -4,6 +4,7 @@ MATE_BG_DIR=$(DESTDIR)/usr/share/mate-background-properties
 KDE_BG_DIR=$(DESTDIR)/usr/share/wallpapers/
 XFCE_BG_DIR=$(DESTDIR)/usr/share/xfce4/backdrops
 MKDIR=/bin/mkdir -p
+PNGQUANT=/usr/bin/pngquant
 INSTALL=/usr/bin/install -p -m644 -D
 LN_S=/bin/ln -s
 
@@ -36,7 +37,8 @@ install:
 			$(XFCE_BG_DIR)/f38-$${theme}.jpg ;\
 	done;
 	for theme in $(THEMES_PNG) ; do \
-	  $(INSTALL) $${theme}.png $(F38_DIR)/extras/$${theme}.png ;\
+	#~ Compress to 8-bit png format
+	  $(PNGQUANT) -o $(F38_DIR)/extras/$${theme}.png $${theme}.png ;\
 	  $(MKDIR) $(KDE_BG_DIR)/F38_$${theme}/contents/images ;\
 	  $(INSTALL) $${theme}.desktop $(KDE_BG_DIR)/F38_$${theme}/metadata.desktop ; \
 	  for res in 1280x1024 \
