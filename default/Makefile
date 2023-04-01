@@ -9,6 +9,7 @@ MATE_BG_DEFAULT=$(DESTDIR)/usr/share/backgrounds/mate
 PLASMA_BG_DIR=$(DESTDIR)/usr/share/plasma/desktoptheme
 XFCE_BG_DIR=$(DESTDIR)/usr/share/xfce4/backdrops
 INKSCAPE=/usr/bin/inkscape
+PNGQUANT=/usr/bin/pngquant
 MKDIR=/bin/mkdir -p
 INSTALL=/usr/bin/install -p -m644 -D
 LN_S=/bin/ln -s
@@ -18,15 +19,19 @@ all:
 
 install:
 	$(MKDIR) $(WP_DIR)/default
-	#~ Base background
+	#~ Base background and optimization
 	for tod in 01-day 01-night; do \
-	   $(INSTALL) $(WP_NAME)-$${tod}.png	$(WP_DIR)/default/$(WP_NAME)-$${tod}.png ; \
+	#~   $(INSTALL) $(WP_NAME)-$${tod}.png	$(WP_DIR)/default/$(WP_NAME)-$${tod}.png ; \
+	     $(PNGQUANT) -o $(WP_DIR)/default/$(WP_NAME)-$${tod}.png \
+			$(WP_NAME)-$${tod}.png ; \
 	done; 
 	$(INSTALL) $(WP_NAME).xml	$(WP_DIR)/default/$(WP_NAME).xml 
 	
 	#~ GNOME background
 	$(MKDIR) $(GNOME_BG_DIR)
 	$(INSTALL) gnome-backgrounds-$(WP_NAME).xml	$(GNOME_BG_DIR)/$(WP_NAME).xml
+	#~ Budgie background
+	$(INSTALL) budgie-backgrounds-$(WP_NAME).xml	$(GNOME_BG_DIR)/$(WP_NAME)-budgie.xml
 	
 	#~ KDE and Plasma background
 	$(MKDIR) $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images
