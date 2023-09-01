@@ -36,8 +36,8 @@ install:
 	  $(LN_S) ../../backgrounds/f39/extras/$${theme}.jpg \
 			$(XFCE_BG_DIR)/f39-$${theme}.jpg ;\
 	done;
-	for theme in $(THEMES_PNG) ; do \
 	#~ Compress to 8-bit png format
+	for theme in $(THEMES_PNG) ; do \
 	  $(PNGQUANT) -o $(F39_DIR)/extras/$${theme}.png $${theme}.png ;\
 	  $(MKDIR) $(KDE_BG_DIR)/F39_$${theme}/contents/images ;\
 	  $(INSTALL) $${theme}.desktop $(KDE_BG_DIR)/F39_$${theme}/metadata.desktop ; \
