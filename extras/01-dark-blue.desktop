@@ -1,11 +1,11 @@
 [Desktop Entry]
-Name=Dark Blue (F38 Supplemental)
+Name=Dark Blue (F39 Supplemental)
 
-X-KDE-PluginInfo-Name=Dark Blue (F38 Supplemental)
+X-KDE-PluginInfo-Name=Dark Blue (F39 Supplemental)
 X-KDE-PluginInfo-Author=Fedora Design Team
 X-KDE-PluginInfo-Email=fedora-design@lists.fedoraproject.org
-X-KDE-PluginInfo-Name=F38
-X-KDE-PluginInfo-Version=38.0
+X-KDE-PluginInfo-Name=F39
+X-KDE-PluginInfo-Version=39.0
 X-KDE-PluginInfo-Website=https://fedoraproject.org/wiki/Design
 X-KDE-PluginInfo-Category=
 X-KDE-PluginInfo-Depends=
@@ -17,7 +17,7 @@ X-Plasma-API=5.0
 FallbackTheme=default
 
 [Wallpaper]
-defaultWallpaperTheme=F38
+defaultWallpaperTheme=F39
 defaultFileSuffix=.png
 defaultWidth=1920
 defaultHeight=1200
