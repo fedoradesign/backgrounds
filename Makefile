@@ -1,5 +1,5 @@
 SUBDIRS = default extras
-VERSION = 39.0.0
+VERSION = 39.0.1
 NAME =  f39-backgrounds-$(VERSION)
 
 all:
