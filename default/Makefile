@@ -21,8 +21,7 @@ install:
 	$(MKDIR) $(WP_DIR)/default
 	#~ Base background and optimization
 	for tod in 01-day 01-night; do \
-	#~   $(INSTALL) $(WP_NAME)-$${tod}.png	$(WP_DIR)/default/$(WP_NAME)-$${tod}.png ; \
-	     $(PNGQUANT) -o $(WP_DIR)/default/$(WP_NAME)-$${tod}.png \
+		$(PNGQUANT) -o $(WP_DIR)/default/$(WP_NAME)-$${tod}.png \
 			$(WP_NAME)-$${tod}.png ; \
 	done; 
 	$(INSTALL) $(WP_NAME).xml	$(WP_DIR)/default/$(WP_NAME).xml 
