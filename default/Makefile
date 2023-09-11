@@ -18,11 +18,11 @@ all:
 
 install:
 	$(MKDIR) $(WP_DIR)/default
-	$(INSTALL) $(WP_NAME).xml	$(WP_DIR)/default/$(WP_NAME).xml 
+	$(INSTALL) $(WP_NAME).xml	$(WP_DIR)/default/$(WP_NAME).xml
 	#~ Base background
-        for tod in 01-day 01-night; do \
-          $(INSTALL) $(WP_NAME)-$${tod}.png	$(WP_DIR)/default/$(WP_NAME)-$${tod}.png ; \
-        done;
+	for tod in 01-day 01-night; do \
+	  $(INSTALL) $(WP_NAME)-$${tod}.png	$(WP_DIR)/default/$(WP_NAME)-$${tod}.png ; \
+	done;
 	
 	#~ GNOME background
 	$(MKDIR) $(GNOME_BG_DIR)
