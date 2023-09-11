@@ -38,7 +38,7 @@ install:
 	done;
 	#~ Compress to 8-bit png format
 	for theme in $(THEMES_PNG) ; do \
-	  $(PNGQUANT) -o $(F39_DIR)/extras/$${theme}.png $${theme}.png ;\
+	  $(INSTALL) $${theme}.png     $(F39_DIR)/extras/$${theme}.png ; \
 	  $(MKDIR) $(KDE_BG_DIR)/F39_$${theme}/contents/images ;\
 	  $(INSTALL) $${theme}.desktop $(KDE_BG_DIR)/F39_$${theme}/metadata.desktop ; \
 	  for res in 1280x1024 \
