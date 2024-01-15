@@ -1,0 +1,13 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "kde@lists.fedoraproject.org",
+                "Name": "Fedora KDE SIG"
+            }
+        ],
+        "Id": "F39",
+        "Name": "Fedora Thirty-Nine",
+        "License": "CC-BY-SA-4.0"
+    }
+}
