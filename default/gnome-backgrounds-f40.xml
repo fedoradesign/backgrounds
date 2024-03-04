@@ -2,17 +2,17 @@
 <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
 <wallpapers>
     <wallpaper deleted="false">
-        <name>Fedora 39 Default</name>
-        <filename>/usr/share/backgrounds/f39/default/f39-01-day.png</filename>
-        <filename-dark>/usr/share/backgrounds/f39/default/f39-01-night.png</filename-dark>
+        <name>Fedora 40 Default</name>
+        <filename>/usr/share/backgrounds/f40/default/f40-01-day.png</filename>
+        <filename-dark>/usr/share/backgrounds/f40/default/f40-01-night.png</filename-dark>
         <options>zoom</options>
         <shade_type>solid</shade_type>
         <pcolor>#51a2da</pcolor>
         <scolor>#294172</scolor>
     </wallpaper>
     <wallpaper deleted="false">
-        <name>Fedora 39 Time of Day</name>
-        <filename>/usr/share/backgrounds/f39/default/f39.xml</filename>
+        <name>Fedora 40 Time of Day</name>
+        <filename>/usr/share/backgrounds/f40/default/f40.xml</filename>
         <options>zoom</options>
     </wallpaper>
 </wallpapers>

@@ -2,14 +2,14 @@
 <!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
 <wallpapers>
     <wallpaper deleted="false">
-        <name>Fedora 39 Time of Day</name>
-        <filename>/usr/share/backgrounds/f39/default/f39.xml</filename>
+        <name>Fedora 40 Time of Day</name>
+        <filename>/usr/share/backgrounds/f40/default/f40.xml</filename>
         <options>zoom</options>
     </wallpaper>
 
     <wallpaper deleted="false">
-        <name>Fedora 39 Day Default</name>
-        <filename>/usr/share/backgrounds/f39/default/f39-01-day.png</filename>
+        <name>Fedora 40 Day Default</name>
+        <filename>/usr/share/backgrounds/f40/default/f40-01-day.png</filename>
         <options>zoom</options>
         <shade_type>solid</shade_type>
         <pcolor>#3c6eb4</pcolor>
@@ -17,8 +17,8 @@
     </wallpaper>
 
     <wallpaper deleted="false">
-        <name>Fedora 39 Night</name>
-        <filename>/usr/share/backgrounds/f39/default/f39-01-night.png</filename>
+        <name>Fedora 40 Night</name>
+        <filename>/usr/share/backgrounds/f40/default/f40-01-night.png</filename>
         <options>zoom</options>
         <shade_type>solid</shade_type>
         <pcolor>#3c6eb4</pcolor>

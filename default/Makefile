@@ -1,5 +1,5 @@
-WP_NAME=f39
-WP_BIGNAME=F39
+WP_NAME=f40
+WP_BIGNAME=F40
 WP_DIR=$(DESTDIR)/usr/share/backgrounds/$(WP_NAME)
 WP_DIR_LN=/usr/share/backgrounds/$(WP_NAME)
 GNOME_BG_DIR=$(DESTDIR)/usr/share/gnome-background-properties
@@ -33,7 +33,6 @@ install:
 	#~ KDE and Plasma background
 	$(MKDIR) $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images
 	$(MKDIR) $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images_dark
-	$(INSTALL) $(WP_NAME)-metadata.desktop $(KDE_BG_DIR)/$(WP_BIGNAME)/metadata.desktop
 	$(INSTALL) $(WP_NAME)-metadata.json $(KDE_BG_DIR)/$(WP_BIGNAME)/metadata.json
 	for res in 1280x1024 \
 		     640x480 800x600 1024x768 1152x864 1200x900 1280x960 1440x1080 1600x1200 1600x1280 1920x1440 2048x1536 \
@@ -44,8 +43,6 @@ install:
 	  $(LN_S) ../../../../backgrounds/$(WP_NAME)/default/$(WP_NAME)-01-night.png \
 	          $(KDE_BG_DIR)/$(WP_BIGNAME)/contents/images_dark/$${res}.png ; \
 	done;
-	$(MKDIR) $(PLASMA_BG_DIR)/$(WP_BIGNAME)
-	$(INSTALL) $(WP_NAME)-metadata.desktop	$(PLASMA_BG_DIR)/$(WP_BIGNAME)/metadata.desktop
 	
 	#~ MATE background
 	$(MKDIR) $(MATE_BG_DIR)

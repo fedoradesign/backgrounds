@@ -1,14 +1,14 @@
 <background>
   <starttime>
-    <year>2023</year>
-    <month>09</month>
-    <day>01</day>
+    <year>2024</year>
+    <month>04</month>
+    <day>23</day>
     <hour>8</hour>
     <minute>00</minute>
     <second>00</second>
   </starttime>
 <static>
 <duration>10000000000.0</duration>
-<file>/usr/share/backgrounds/f39/default/f39.png</file>
+<file>/usr/share/backgrounds/f40/default/f40.png</file>
 </static>
 </background>
