@@ -1,5 +1,5 @@
 SUBDIRS = default extras
-VERSION = 40.1.0
+VERSION = 40.1.1
 NAME =  f40-backgrounds-$(VERSION)
 
 all:
