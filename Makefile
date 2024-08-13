@@ -1,4 +1,4 @@
-SUBDIRS = default extras
+SUBDIRS = default
 VERSION = 41.0.0
 NAME =  f41-backgrounds-$(VERSION)
 
