@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>Fedora 41 Night Default</name>
+        <filename>/usr/share/backgrounds/f41/default/f41-01-night.png</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+</wallpapers>

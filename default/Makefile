@@ -50,7 +50,7 @@ install:
 	
 	#~ XFCE background
 	$(MKDIR) $(XFCE_BG_DIR)
-	$(LN_S) $(WP_DIR_LN)/default/$(WP_NAME)-01-day.png \
+	$(INSTALL) $(WP_NAME)-01-day.png \
 			$(XFCE_BG_DIR)/$(WP_NAME).png
-	$(LN_S) $(WP_DIR_LN)/default/$(WP_NAME)-01-night.png \
+	$(INSTALL) $(WP_NAME)-01-night.png \
 			$(XFCE_BG_DIR)/$(WP_NAME)-01-night.png

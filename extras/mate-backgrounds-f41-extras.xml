@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>F41 Supplemental Wallpapers Slideshow</name>
+        <filename>/usr/share/backgrounds/f41/extras/f41-extras.xml</filename>
+        <options>scaled</options>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Dark Blue (F41 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f41/extras/01-dark-blue.png</filename>
+        <options>scaled</options>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Light Blue (F41 Supplemental)</name>
+        <filename>/usr/share/backgrounds/f41/extras/01-light-blue.png</filename>
+        <options>scaled</options>
+    </wallpaper>
+
+</wallpapers>

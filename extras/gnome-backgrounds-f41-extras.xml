@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>F41 Supplemental Wallpapers</name>
+        <filename>/usr/share/backgrounds/f41/extras/01-light-blue.png</filename>
+        <filename-dark>/usr/share/backgrounds/f41/default/01-dark-night.png</filename-dark>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#51a2da</pcolor>
+        <scolor>#294172</scolor>
+</wallpapers>
