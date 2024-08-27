@@ -1,0 +1,21 @@
+<background>
+  <starttime>
+    <year>2024</year>
+    <month>10</month>
+    <day>22</day>
+    <hour>08</hour>
+    <minute>00</minute>
+    <second>00</second>
+  </starttime>
+
+  <static>
+    <duration>1800.0</duration>
+    <file>/usr/share/backgrounds/f41/extras/01-dark-blue.png</file>
+  </static>
+
+  <static>
+    <duration>1800.0</duration>
+    <file>/usr/share/backgrounds/f41/extras/01-light-blue.png</file>
+  </static>
+
+</background>
