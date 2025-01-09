@@ -19,6 +19,7 @@ BuildArch:      noarch
 
 BuildRequires:  kde-filesystem
 BuildRequires:  make
+BuildRequires:  ImageMagick
 
 Requires:       %{name}-budgie = %{version}-%{release}
 Requires:       %{name}-gnome = %{version}-%{release}

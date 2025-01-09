@@ -1,54 +1,74 @@
-F41_DIR=$(DESTDIR)/usr/share/backgrounds/f41
-GNOME_BG_DIR=$(DESTDIR)/usr/share/gnome-background-properties
-MATE_BG_DIR=$(DESTDIR)/usr/share/mate-background-properties
-KDE_BG_DIR=$(DESTDIR)/usr/share/wallpapers/
-XFCE_BG_DIR=$(DESTDIR)/usr/share/xfce4/backdrops
-MKDIR=/bin/mkdir -p
-PNGQUANT=/usr/bin/pngquant
-INSTALL=/usr/bin/install -p -m644 -D
-LN_S=/bin/ln -s
+WP_BG_DIR=$(WP_BG_ROOT)/extras
+WP_BG_REL=$(WP_REL_PATH)/extras
 
 THEMES_JPG=
-THEMES_PNG=01-dark-blue\
+THEMES_PNG= \
+	01-dark-blue \
 	01-light-blue
+
+WP_PNG_DESTS=$(THEMES_PNG:%=$(WP_BG_DIR)/%.png)
+
+INSTALL_RULES= \
+	install-base \
+	install-gnome \
+	install-kde \
+	install-mate \
+	install-xfce
+
+.PHONY: $(WP_PNG_DESTS) $(INSTALL_RULES) all install
+
+$(WP_PNG_DESTS): OUTNAME = $(shell $(BASENAME) $@)
+$(WP_PNG_DESTS):
+	$(MKDIR) $(WP_BG_DIR)
+	#~ Convert to RGB-format file (no alpha) and fix timestamp
+	$(MAGICK) $(OUTNAME) -alpha off $@ 
+	$(TOUCH_R) $(OUTNAME) $@
 
 all:
 
-install:
-	$(MKDIR) $(F41_DIR)/extras
-	$(MKDIR) $(GNOME_BG_DIR)
-	$(MKDIR) $(MATE_BG_DIR)
-	$(MKDIR) $(XFCE_BG_DIR)
-	$(INSTALL) f41-extras.xml 				$(F41_DIR)/extras/f41-extras.xml
-	$(INSTALL) gnome-backgrounds-f41-extras.xml 	$(GNOME_BG_DIR)/f41-extras.xml
-	$(INSTALL) mate-backgrounds-f41-extras.xml 	$(MATE_BG_DIR)/f41-extras.xml
-	for theme in $(THEMES_JPG) ; do \
-	  $(INSTALL) $${theme}.jpg $(F41_DIR)/extras/$${theme}.jpg ;\
-	  $(MKDIR) $(KDE_BG_DIR)/F41_$${theme}/contents/images ;\
-	  $(INSTALL) $${theme}.desktop $(KDE_BG_DIR)/F41_$${theme}/metadata.desktop ; \
-	  for res in 1280x1024 \
-		     640x480 800x600 1024x768 1152x864 1200x900 1280x960 1440x1080 1600x1200 1600x1280 1920x1440 2048x1536 \
-		     800x480 1024x600 1152x720 1280x720 1280x768 1280x800 1366x768 1440x900 1680x1050 1920x1080 1920x1200 \
-		     2160x1440 2304x1440 2560x1440 2560x1600 2960x1440 3000x2000 3200x1800  3440x1440 3840x2160; do \
-	    $(LN_S) ../../../../backgrounds/f41/extras/$${theme}.jpg \
-	            $(KDE_BG_DIR)/F41_$${theme}/contents/images/$${res}.jpg ; \
-	  done; \
-	  $(LN_S) ../../backgrounds/f41/extras/$${theme}.jpg \
-			$(XFCE_BG_DIR)/f41-$${theme}.jpg ;\
-	done;
-	#~ Compress to 8-bit png format
-	for theme in $(THEMES_PNG) ; do \
-	  $(INSTALL) $${theme}.png     $(F41_DIR)/extras/$${theme}.png ; \
-	  $(MKDIR) $(KDE_BG_DIR)/F41_$${theme}/contents/images ;\
-	  $(INSTALL) $${theme}.desktop $(KDE_BG_DIR)/F41_$${theme}/metadata.desktop ; \
-	  for res in 1280x1024 \
-		     640x480 800x600 1024x768 1152x864 1200x900 1280x960 1440x1080 1600x1200 1600x1280 1920x1440 2048x1536 \
-		     800x480 1024x600 1152x720 1280x720 1280x768 1280x800 1366x768 1440x900 1680x1050 1920x1080 1920x1200 \
-		     2160x1440 2304x1440 2560x1440 2560x1600 2960x1440 3000x2000 3200x1800  3440x1440 3840x2160; do \
-	    $(LN_S) ../../../../backgrounds/f41/extras/$${theme}.png \
-	            $(KDE_BG_DIR)/F41_$${theme}/contents/images/$${res}.png ; \
-	  done; \
-	  $(LN_S) ../../backgrounds/f41/extras/$${theme}.png \
-			$(XFCE_BG_DIR)/f41-$${theme}.png ;\
-	done;
+install: $(INSTALL_RULES)
 
+install-base: $(WP_PNG_DESTS)
+	$(MKDIR) $(WP_BG_DIR)
+	$(INSTALL) f41-extras.xml $(WP_BG_DIR)/f41-extras.xml
+	for theme in $(THEMES_JPG); do \
+	  $(INSTALL) $${theme}.jpg $(WP_BG_DIR)/$${theme}.jpg; \
+	done
+	#~ Base background PNG images done by WP_PNG_DESTS rules
+
+install-gnome:
+	$(MKDIR) $(GNOME_BG_DIR)
+	$(INSTALL) gnome-backgrounds-f41-extras.xml $(GNOME_BG_DIR)/f41-extras.xml
+
+install-mate:
+	$(MKDIR) $(MATE_BG_DIR)
+	$(INSTALL) mate-backgrounds-f41-extras.xml $(MATE_BG_DIR)/f41-extras.xml
+
+install-xfce:
+	$(MKDIR) $(XFCE_BG_DIR)
+	for theme in $(THEMES_JPG); do \
+	  $(LN_S) ../../$(WP_BG_REL)/$${theme}.jpg \
+			$(XFCE_BG_DIR)/f41-$${theme}.jpg ;\
+	done
+	for theme in $(THEMES_PNG); do \
+	  $(LN_S) ../../$(WP_BG_REL)/$${theme}.png \
+			$(XFCE_BG_DIR)/f41-$${theme}.png ; \
+	done
+
+install-kde:
+	for theme in $(THEMES_JPG) ; do \
+	  $(MKDIR) $(KDE_BG_DIR)/F41_$${theme}/contents/images ;\
+	  $(INSTALL) $${theme}.desktop $(KDE_BG_DIR)/F41_$${theme}/metadata.desktop ; \
+	  for res in $(RESOLUTIONS); do \
+	    $(LN_S) ../../../../../$(WP_BG_REL)/$${theme}.jpg \
+	      $(KDE_BG_DIR)/F41_$${theme}/contents/images/$${res}.jpg ; \
+	  done; \
+	done;
+	for theme in $(THEMES_PNG) ; do \
+	  $(MKDIR) $(KDE_BG_DIR)/F41_$${theme}/contents/images ;\
+	  $(INSTALL) $${theme}.desktop $(KDE_BG_DIR)/F41_$${theme}/metadata.desktop ; \
+	  for res in $(RESOLUTIONS); do \
+	    $(LN_S) ../../../../../$(WP_BG_REL)/$${theme}.png \
+	      $(KDE_BG_DIR)/F41_$${theme}/contents/images/$${res}.png ; \
+	  done; \
+	done;
