@@ -1,5 +1,6 @@
 WP_BG_DIR=$(WP_BG_ROOT)/default
 WP_BG_REL=$(WP_REL_PATH)/default
+KDE_BG_DIR=$(KDE_BG_ROOT)/$(WP_BIGNAME)
 
 THEMES_PNG= \
 	$(WP_NAME)-01-day.png \

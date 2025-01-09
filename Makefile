@@ -9,8 +9,8 @@ WP_INSTALL_ROOT=$(DESTDIR)/usr/share
 WP_REL_PATH=backgrounds/$(WP_NAME)
 
 WP_BG_ROOT=$(WP_INSTALL_ROOT)/$(WP_REL_PATH)
+KDE_BG_ROOT=$(WP_INSTALL_ROOT)/wallpapers/
 GNOME_BG_DIR=$(WP_INSTALL_ROOT)/gnome-background-properties
-KDE_BG_DIR=$(WP_INSTALL_ROOT)/wallpapers/$(WP_BIGNAME)
 MATE_BG_DIR=$(WP_INSTALL_ROOT)/mate-background-properties
 MATE_BG_DEFAULT=$(WP_INSTALL_ROOT)/backgrounds/mate
 PLASMA_BG_DIR=$(WP_INSTALL_ROOT)/plasma/desktoptheme

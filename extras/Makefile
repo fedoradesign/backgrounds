@@ -57,18 +57,18 @@ install-xfce:
 
 install-kde:
 	for theme in $(THEMES_JPG) ; do \
-	  $(MKDIR) $(KDE_BG_DIR)/F41_$${theme}/contents/images ;\
-	  $(INSTALL) $${theme}.desktop $(KDE_BG_DIR)/F41_$${theme}/metadata.desktop ; \
+	  $(MKDIR) $(KDE_BG_ROOT)/F41_$${theme}/contents/images ;\
+	  $(INSTALL) $${theme}.desktop $(KDE_BG_ROOT)/F41_$${theme}/metadata.desktop ; \
 	  for res in $(RESOLUTIONS); do \
-	    $(LN_S) ../../../../../$(WP_BG_REL)/$${theme}.jpg \
-	      $(KDE_BG_DIR)/F41_$${theme}/contents/images/$${res}.jpg ; \
+	    $(LN_S) ../../../../$(WP_BG_REL)/$${theme}.jpg \
+	      $(KDE_BG_ROOT)/F41_$${theme}/contents/images/$${res}.jpg ; \
 	  done; \
 	done;
 	for theme in $(THEMES_PNG) ; do \
-	  $(MKDIR) $(KDE_BG_DIR)/F41_$${theme}/contents/images ;\
-	  $(INSTALL) $${theme}.desktop $(KDE_BG_DIR)/F41_$${theme}/metadata.desktop ; \
+	  $(MKDIR) $(KDE_BG_ROOT)/F41_$${theme}/contents/images ;\
+	  $(INSTALL) $${theme}.desktop $(KDE_BG_ROOT)/F41_$${theme}/metadata.desktop ; \
 	  for res in $(RESOLUTIONS); do \
-	    $(LN_S) ../../../../../$(WP_BG_REL)/$${theme}.png \
-	      $(KDE_BG_DIR)/F41_$${theme}/contents/images/$${res}.png ; \
+	    $(LN_S) ../../../../$(WP_BG_REL)/$${theme}.png \
+	      $(KDE_BG_ROOT)/F41_$${theme}/contents/images/$${res}.png ; \
 	  done; \
 	done;
