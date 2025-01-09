@@ -48,11 +48,11 @@ install-xfce:
 	$(MKDIR) $(XFCE_BG_DIR)
 	for theme in $(THEMES_JPG); do \
 	  $(LN_S) ../../$(WP_BG_REL)/$${theme}.jpg \
-			$(XFCE_BG_DIR)/f41-$${theme}.jpg ;\
+			$(XFCE_BG_DIR)/f41-extras-$${theme}.jpg ;\
 	done
 	for theme in $(THEMES_PNG); do \
 	  $(LN_S) ../../$(WP_BG_REL)/$${theme}.png \
-			$(XFCE_BG_DIR)/f41-$${theme}.png ; \
+			$(XFCE_BG_DIR)/f41-extras-$${theme}.png ; \
 	done
 
 install-kde:

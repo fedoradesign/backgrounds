@@ -161,7 +161,10 @@ This package contains  supplemental wallpapers for XFCE
 %dir %{_datadir}/mate-background-properties/
 
 %files xfce
-%{_datadir}/xfce4/backdrops/%{bgname}.png
+%{_datadir}/xfce4/backdrops/%{bgname}*.png
+%if %{with_extras}
+%exclude %{_datadir}/xfce4/backdrops/%{bgname}-extras*.png
+%endif
 %dir %{_datadir}/xfce4/
 %dir %{_datadir}/xfce4/backdrops/
 
@@ -180,7 +183,7 @@ This package contains  supplemental wallpapers for XFCE
 %{_datadir}/mate-background-properties/%{bgname}-extras.xml
 
 %files extras-xfce
-%{_datadir}/xfce4/backdrops/
+%{_datadir}/xfce4/backdrops/%{bgname}-extras*.png
 %endif
 
 %changelog
