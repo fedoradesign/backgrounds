@@ -127,7 +127,7 @@ This package contains  supplemental wallpapers for XFCE
 %endif
 
 %prep
-%autosetup -n %{name}
+%autosetup -n %{name}-%{version}
 
 
 %build
@@ -141,7 +141,7 @@ This package contains  supplemental wallpapers for XFCE
 %doc
 
 %files base
-%license COPYING Attribution
+%license CC-BY-SA-4.0 Attribution
 %dir %{_datadir}/backgrounds/%{bgname}
 %dir %{_datadir}/backgrounds/%{bgname}/default
 %{_datadir}/backgrounds/%{bgname}/default/%{bgname}*.{png,xml}
