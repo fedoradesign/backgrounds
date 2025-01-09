@@ -2,8 +2,8 @@
 %global Bg_Name F41
 %global bgname %(t="%{Bg_Name}";echo ${t,,})
 
-# Disable Extras subpackages
-%global with_extras 0
+# Disable Extras subpackages by default
+%bcond_with extras
 
 Name:           %{bgname}-backgrounds
 Version:        %{relnum}.0.0
@@ -83,7 +83,7 @@ Requires:       xfdesktop
 This package contains XFCE4 desktop background for the Fedora  %{relnum}
 default theme.
 
-%if %{with_extras}
+%if %{with extras}
 %package        extras-base
 Summary:        Base images for  Extras Backgrounds
 License:        CC-BY-4.0 AND CC-BY-SA-4.0 AND CC0-1.0
@@ -131,11 +131,11 @@ This package contains  supplemental wallpapers for XFCE
 
 
 %build
-%make_build
+%make_build %{?with_extras:SUBDIRS="default extras"}
 
 
 %install
-%make_install
+%make_install %{?with_extras:SUBDIRS="default extras"}
 
 %files
 %doc
@@ -162,15 +162,15 @@ This package contains  supplemental wallpapers for XFCE
 
 %files xfce
 %{_datadir}/xfce4/backdrops/%{bgname}*.png
-%if %{with_extras}
+%if %{with extras}
 %exclude %{_datadir}/xfce4/backdrops/%{bgname}-extras*.png
 %endif
 %dir %{_datadir}/xfce4/
 %dir %{_datadir}/xfce4/backdrops/
 
-%if %{with_extras}
+%if %{with extras}
 %files extras-base
-%license COPYING
+%license CC-BY-SA-4.0 Attribution
 %{_datadir}/backgrounds/%{bgname}/extras/
 
 %files extras-gnome
