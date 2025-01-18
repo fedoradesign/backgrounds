@@ -1,0 +1,19 @@
+name: image-scan
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.13"
+      - name: Install Pillow
+        run: pip install pillow
+      - name: Scan images
+        run: python3 check_png_format.py .
