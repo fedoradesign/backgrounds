@@ -11,7 +11,7 @@ Release:        %autorelease
 Summary:        Fedora %{relnum} default desktop background
 
 License:        CC-BY-SA-4.0
-URL:            https://fedoraproject.org/wiki/_Artwork
+URL:            https://fedoraproject.org/wiki/Design
 Source0:        https://github.com/fedoradesign/backgrounds/releases/download/v%{version}/%{name}-%{version}.tar.xz
 
 
