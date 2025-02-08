@@ -1,11 +1,11 @@
 [Desktop Entry]
-Name=Dark Blue (F40 Supplemental)
+Name=Dark Blue (F42 Supplemental)
 
-X-KDE-PluginInfo-Name=Dark Blue (F40 Supplemental)
+X-KDE-PluginInfo-Name=Dark Blue (F42 Supplemental)
 X-KDE-PluginInfo-Author=Fedora Design Team
 X-KDE-PluginInfo-Email=fedora-design@lists.fedoraproject.org
-X-KDE-PluginInfo-Name=F40
-X-KDE-PluginInfo-Version=40.0
+X-KDE-PluginInfo-Name=F42
+X-KDE-PluginInfo-Version=42.0
 X-KDE-PluginInfo-Website=https://fedoraproject.org/wiki/Design
 X-KDE-PluginInfo-Category=
 X-KDE-PluginInfo-Depends=
@@ -17,7 +17,7 @@ X-Plasma-API=5.0
 FallbackTheme=default
 
 [Wallpaper]
-defaultWallpaperTheme=F40
+defaultWallpaperTheme=F42
 defaultFileSuffix=.png
 defaultWidth=1920
 defaultHeight=1200

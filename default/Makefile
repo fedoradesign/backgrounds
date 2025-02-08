@@ -2,12 +2,12 @@ WP_BG_DIR=$(WP_BG_ROOT)/default
 WP_BG_REL=$(WP_REL_PATH)/default
 KDE_BG_DIR=$(KDE_BG_ROOT)/$(WP_BIGNAME)
 
-THEMES_PNG= \
-	$(WP_NAME)-01-day.png \
-	$(WP_NAME)-01-night.png
+THEMES_JXL= \
+	$(WP_NAME)-01-day.jxl \
+	$(WP_NAME)-01-night.jxl
 
-WP_PNG_DESTS=$(THEMES_PNG:%=$(WP_BG_DIR)/%)
-XFCE_PNG_DESTS=$(THEMES_PNG:%=$(XFCE_BG_DIR)/%)
+WP_JXL_DESTS=$(THEMES_JXL:%=$(WP_BG_DIR)/%)
+XFCE_JXL_DESTS=$(THEMES_JXL:%=$(XFCE_BG_DIR)/%)
 
 INSTALL_RULES= \
 	install-base \
@@ -17,18 +17,18 @@ INSTALL_RULES= \
 	install-mate \
 	install-xfce
 
-.PHONY: $(WP_PNG_DESTS) $(XFCE_PNG_DESTS) $(INSTALL_RULES) \
+.PHONY: $(WP_JXL_DESTS) $(XFCE_JXL_DESTS) $(INSTALL_RULES) \
         all install
 
-$(WP_PNG_DESTS): OUTNAME = $(shell $(BASENAME) $@)
-$(WP_PNG_DESTS):
+$(WP_JXL_DESTS): OUTNAME = $(shell $(BASENAME) $@)
+$(WP_JXL_DESTS):
 	$(MKDIR) $(WP_BG_DIR)
 	#~ Convert to RGB-format file (no alpha) and fix timestamp
 	$(MAGICK) $(OUTNAME) -alpha off $@ 
 	$(TOUCH_R) $(OUTNAME) $@
 
-$(XFCE_PNG_DESTS): OUTNAME = $(shell $(BASENAME) $@)
-$(XFCE_PNG_DESTS):
+$(XFCE_JXL_DESTS): OUTNAME = $(shell $(BASENAME) $@)
+$(XFCE_JXL_DESTS):
 	$(MKDIR) $(XFCE_BG_DIR)
 	#~ Convert to RGB-format file (no alpha) and fix timestamp
 	$(MAGICK) $(OUTNAME) -alpha off $@
@@ -38,10 +38,10 @@ all:
 
 install: $(INSTALL_RULES)
 
-install-base: $(WP_PNG_DESTS)
+install-base: $(WP_JXL_DESTS)
 	$(MKDIR) $(WP_BG_DIR)
 	$(INSTALL) $(WP_NAME).xml	$(WP_BG_DIR)/$(WP_NAME).xml
-	#~ Base background images done by WP_PNG_DESTS rules
+	#~ Base background images done by WP_JXL_DESTS rules
 
 install-gnome:	
 	#~ GNOME background
@@ -58,10 +58,10 @@ install-kde:
 	$(MKDIR) $(KDE_BG_DIR)/contents/images_dark
 	$(INSTALL) $(WP_NAME)-metadata.json $(KDE_BG_DIR)/metadata.json
 	for res in $(RESOLUTIONS); do \
-	  $(LN_S) ../../../../$(WP_BG_REL)/$(WP_NAME)-01-day.png \
-	          $(KDE_BG_DIR)/contents/images/$${res}.png ; \
-	  $(LN_S) ../../../../$(WP_BG_REL)/$(WP_NAME)-01-night.png \
-	          $(KDE_BG_DIR)/contents/images_dark/$${res}.png ; \
+	  $(LN_S) ../../../../$(WP_BG_REL)/$(WP_NAME)-01-day.JXL \
+	          $(KDE_BG_DIR)/contents/images/$${res}.JXL ; \
+	  $(LN_S) ../../../../$(WP_BG_REL)/$(WP_NAME)-01-night.JXL \
+	          $(KDE_BG_DIR)/contents/images_dark/$${res}.JXL ; \
 	done;
 	
 install-mate:
@@ -69,5 +69,11 @@ install-mate:
 	$(MKDIR) $(MATE_BG_DIR)
 	$(INSTALL) mate-backgrounds-$(WP_NAME).xml $(MATE_BG_DIR)/$(WP_NAME).xml
 
-install-xfce: $(XFCE_PNG_DESTS)
-	#~ XFCE background images done by XFCE_PNG_DESTS rules
+install-xfce: $(XFCE_JXL_DESTS)
+	#~ XFCE background images done by XFCE_JXL_DESTS rules
+	#~ XFCE background
+	$(MKDIR) $(XFCE_BG_DIR)
+	$(INSTALL) $(WP_NAME)-01-day.jxl \
+			$(XFCE_BG_DIR)/$(WP_NAME).jxl
+	$(INSTALL) $(WP_NAME)-01-night.jxl \
+			$(XFCE_BG_DIR)/$(WP_NAME)-01-night.jxl

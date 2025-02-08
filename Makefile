@@ -1,9 +1,9 @@
 SUBDIRS = default
-VERSION = 41.0.0
-NAME =  f41-backgrounds-$(VERSION)
+VERSION = 42.0.0
+NAME =  f42-backgrounds-$(VERSION)
 
-WP_NAME=f41
-WP_BIGNAME=F41
+WP_NAME=f42
+WP_BIGNAME=F42
 
 WP_INSTALL_ROOT=$(DESTDIR)/usr/share
 WP_REL_PATH=backgrounds/$(WP_NAME)
