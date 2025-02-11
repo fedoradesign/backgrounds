@@ -58,10 +58,10 @@ install-kde:
 	$(MKDIR) $(KDE_BG_DIR)/contents/images_dark
 	$(INSTALL) $(WP_NAME)-metadata.json $(KDE_BG_DIR)/metadata.json
 	for res in $(RESOLUTIONS); do \
-	  $(LN_S) ../../../../$(WP_BG_REL)/$(WP_NAME)-01-day.JXL \
-	          $(KDE_BG_DIR)/contents/images/$${res}.JXL ; \
-	  $(LN_S) ../../../../$(WP_BG_REL)/$(WP_NAME)-01-night.JXL \
-	          $(KDE_BG_DIR)/contents/images_dark/$${res}.JXL ; \
+	  $(LN_S) ../../../../$(WP_BG_REL)/$(WP_NAME)-01-day.jxl \
+	          $(KDE_BG_DIR)/contents/images/$${res}.jxl ; \
+	  $(LN_S) ../../../../$(WP_BG_REL)/$(WP_NAME)-01-night.jxl \
+	          $(KDE_BG_DIR)/contents/images_dark/$${res}.jxl ; \
 	done;
 	
 install-mate:
