@@ -24,14 +24,16 @@ $(WP_JXL_DESTS): OUTNAME = $(shell $(BASENAME) $@)
 $(WP_JXL_DESTS):
 	$(MKDIR) $(WP_BG_DIR)
 	#~ Convert to RGB-format file (no alpha) and fix timestamp
-	$(MAGICK) $(OUTNAME) -alpha off $@ 
+	#~ Disable for JXL format
+	#~ $(MAGICK) $(OUTNAME) -alpha off $@ 
 	$(TOUCH_R) $(OUTNAME) $@
 
 $(XFCE_JXL_DESTS): OUTNAME = $(shell $(BASENAME) $@)
 $(XFCE_JXL_DESTS):
 	$(MKDIR) $(XFCE_BG_DIR)
 	#~ Convert to RGB-format file (no alpha) and fix timestamp
-	$(MAGICK) $(OUTNAME) -alpha off $@
+	#~ Disable for JXL format
+	#~ $(MAGICK) $(OUTNAME) -alpha off $@
 	$(TOUCH_R) $(OUTNAME) $@
 
 all:
