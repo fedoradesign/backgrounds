@@ -26,7 +26,7 @@ $(WP_JXL_DESTS):
 	#~ Convert to RGB-format file (no alpha) and fix timestamp
 	#~ Disable for JXL format
 	#~ $(MAGICK) $(OUTNAME) -alpha off $@ 
-	$(TOUCH_R) $(OUTNAME) $@
+	$(CP) $(OUTNAME) $@
 
 $(XFCE_JXL_DESTS): OUTNAME = $(shell $(BASENAME) $@)
 $(XFCE_JXL_DESTS):
@@ -34,7 +34,7 @@ $(XFCE_JXL_DESTS):
 	#~ Convert to RGB-format file (no alpha) and fix timestamp
 	#~ Disable for JXL format
 	#~ $(MAGICK) $(OUTNAME) -alpha off $@
-	$(TOUCH_R) $(OUTNAME) $@
+	$(CP) $(OUTNAME) $@
 
 all:
 
