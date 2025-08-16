@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>Fedora 43 Default</name>
+        <filename>/usr/share/backgrounds/f43/default/f43-01-day.jxl</filename>
+        <filename-dark>/usr/share/backgrounds/f43/default/f43-01-night.jxl</filename-dark>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#51a2da</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Fedora 43 Time of Day</name>
+        <filename>/usr/share/backgrounds/f43/default/f43.xml</filename>
+        <options>zoom</options>
+    </wallpaper>
+</wallpapers>
