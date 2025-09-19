@@ -1,5 +1,5 @@
 SUBDIRS = default
-VERSION = 43.0.2
+VERSION = 43.0.3
 NAME =  f43-backgrounds-$(VERSION)
 
 WP_NAME=f43
