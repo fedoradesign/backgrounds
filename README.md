@@ -1,4 +1,4 @@
-# ⚠️ **We are in the process of moving this and other repositories onto a different platform, the link will be posted soon**
+# ⚠️ **We are in the process of moving this and other repositories onto a different platform, the proper link will be posted soon**
 
 # f43-backgrounds
 A set of default wallpapers for Fedora 43
